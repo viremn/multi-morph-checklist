@@ -16,8 +16,8 @@
 
 from absl.testing import absltest
 from absl.testing import parameterized
-from multi_morph_checklist import core
-from multi_morph_checklist import utils
+import core
+import utils
 
 
 class UtilsTest(parameterized.TestCase):

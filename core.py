@@ -34,13 +34,13 @@ import os
 import random
 import re
 from typing import Any, Callable, Dict, FrozenSet, Iterable, List, Optional, Set, Tuple, Union
-from multi_morph_checklist import utils
+import utils
 
 
 # pylint: disable=g-multiple-import
 # pylint: disable=g-import-not-at-top
 try:
-  from unimorph_inflect.src.inflection import inflect
+  from inflection import inflect
 # pylint: disable=bare-except
 except ImportError:
   inflect = None
@@ -512,7 +512,7 @@ def determine_same_keys(
 
 
 # TEMPLATE
-ROOT_FOLDER = "/cns/il-d/home/ehlavnova/m2c_export/"
+ROOT_FOLDER = "/home/norrman/GitHub/multi-morph-checklist/export/"
 
 
 class Template:
@@ -574,7 +574,9 @@ class Template:
       raise ValueError("export_file_path is not set.")
 
     file_path = os.path.join(ROOT_FOLDER, self.export_file_path)
-    if not os.path.isfile(file_path):
+    # print('file path:', file_path)
+    # print('dir path:', os.path.dirname(file_path))
+    if not os.path.isdir(os.path.dirname(file_path)):
       os.mkdir(os.path.dirname(file_path))
 
     if sanitize_output:
@@ -703,6 +705,7 @@ class Template:
     all_sampled_front_rules = set(
         utils.get_front_arg(r) for r in self.sampled_rules
     )
+    
     for fn, v in self.functions.items():
       for arg in v["args"]:
         if arg not in all_sampled_front_rules and arg in kwargs:
@@ -1212,10 +1215,14 @@ class Template:
   ) -> Union[List[str], ValueError]:
     """Fills in template with values for n_samples samples."""
     samples_per_option = n_samples
+    
+    # print(f"{self.sampled_rules=}")
 
     non_attribute_rules_values = {
+        # k: [list(item.values())[0] if isinstance(item, dict) else item for item in self.fill_in_values[k]] for k in self.sampled_rules
         k: self.fill_in_values[k] for k in self.sampled_rules
     }
+    # print(f"{non_attribute_rules_values=}")
     if non_attribute_rules_values:
       same_keys, keys_found = [], set()
       for k in non_attribute_rules_values:
@@ -1250,6 +1257,7 @@ class Template:
         print("Perform cartesian product over values (unconditional)")
 
       sampled_formatting, dimensions_final_options = [], []
+      # print('BEFORE ASSIGNMENT:', sampled_formatting)
       if self.verbose:
         print("To determine_same_keys:")
         print(f"duplicate_rules_to_front:\n{self.duplicate_rules_to_front}")
@@ -1271,11 +1279,13 @@ class Template:
           self.duplicate_front_rules_to_root,
           set(self.sampled_rules),
       )
+      
       if self.verbose:
         print("same_keys:")
         print(same_keys)
         print()
 
+      
       for i, (val, same_key) in enumerate(zip(self.values_options, same_keys)):
         if i not in self.no_options:
           values = utils.cartesian_product_with_keys(
@@ -1298,12 +1308,16 @@ class Template:
               copy.deepcopy(self.dimensions_options[i])
               for _ in range(length_chunk)
           )
+
     elif non_attribute_rules_values:
       length_chunk = min(n_samples, len(non_attribute_cartesian_product))
       sampled_formatting = non_attribute_cartesian_product[:length_chunk]
+      
       dimensions_final_options = [{} for _ in range(length_chunk)]
     else:
       raise ValueError
+
+    
 
     ### data validation of dimensions_final_options and sampled_formatting
     ##### each element of sampled_formatting should have all rules in
@@ -1318,7 +1332,7 @@ class Template:
     for i, option in enumerate(sampled_formatting):
       if not all(rule_name in option for rule_name in rules_to_check):
         to_remove.append(i)
-
+    
     if to_remove and self.verbose:
       print(f"Removing {len(to_remove)} options...")
     sampled_formatting = [
@@ -1333,7 +1347,7 @@ class Template:
           "After data validation:"
           f" len(sampled_formatting)={len(sampled_formatting)}"
       )
-
+    
     ### truncate in case too many values
     length_samples = min(n_samples, len(sampled_formatting))
     if randomized:
@@ -1345,6 +1359,7 @@ class Template:
     sampled_formatting = sampled_formatting[:length_samples]
     dimensions_final_options = dimensions_final_options[:length_samples]
 
+   
     # 2. run non-sampled rules (100% deterministic)
     ### get some potential additional data if some dimensions are functions
     computed_front_rules = set()
@@ -1358,6 +1373,7 @@ class Template:
                   sampled_formatting[i][rule_name]
               )
               computed_front_rules.add(rule_name)
+    
 
     if self.verbose:
       print("Final attribute for each sample (dimensions_final_options):")
@@ -1378,6 +1394,7 @@ class Template:
       if self.verbose:
         print(f"Non-sample rule '{rule_name}' values:")
         print(values)
+  
       for i, v in enumerate(values):
         sampled_formatting[i][rule_name] = (
             v if not isinstance(v, list) else (v[0] if v else [])
@@ -1400,16 +1417,27 @@ class Template:
               )
               computed_front_rules.add(rule_name)
 
+    # print(non_attribute_rules_values)
+
     # add function values
     for fn_placeholder, fn_dict in self.functions.items():
       arg_names = fn_dict["args"]
       fn = fn_dict["fn"]
+      #print(*sampled_formatting, sep='\n')
       for i, _ in enumerate(sampled_formatting):
         # sampled_formatting[i] needs to contain all placeholders values
         # except from the functional ones, since they should be added here
         if len(sampled_formatting[i]) >= self.nb_keys - len(self.functions):
           # if arg in sampled_formatting use value, otherwise look for
           # value of dimension in dimensions_final_options
+          # print(sampled_formatting[i],'\n',dimensions_final_options[i],'\n',arg_names)
+
+          # print(*[
+          #         sampled_formatting[i][arg_name]
+          #         if arg_name in sampled_formatting[i]
+          #         else dimensions_final_options[i][arg_name]
+          #         for arg_name in arg_names
+          #       ])
           sampled_formatting[i][fn_placeholder] = fn(
               *[
                   sampled_formatting[i][arg_name]
@@ -1418,6 +1446,7 @@ class Template:
                   for arg_name in arg_names
               ]
           )
+      
 
     if self.verbose:
       print("Final values for each sample with all rules (sampled_formatting):")

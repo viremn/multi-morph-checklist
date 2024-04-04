@@ -160,6 +160,7 @@ def get_dimensions_conditions(
     if verbose:
       print(f"root: {root}")
       print(f"pre_prod:\n{pre_prod}")
+    print(f"{same_keys_cfg=}")
     products.append(
         nested_dict_product_order_repeat(
             pre_prod, True, same_keys_cfg[root]["order"]
@@ -420,6 +421,7 @@ def find_all_keys(s: str) -> List[str]:
   seen = set()
   seen_add = seen.add
   # NOMUTANTS -- mutant alterate expected return instead of failing test
+
   return [x for x in ret if x and not (x in seen or seen_add(x))]
 
 

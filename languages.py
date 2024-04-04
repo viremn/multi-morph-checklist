@@ -29,10 +29,10 @@ A set of 12 languages with rudimentary dimensions and rules:
 - Finnish FI (fi)
 """
 
-from multi_morph_checklist.core import Dimension
-from multi_morph_checklist.core import Dimensions
-from multi_morph_checklist.core import Language
-from multi_morph_checklist.core import Rule
+from core import Dimension
+from core import Dimensions
+from core import Language
+from core import Rule
 
 # ENGLISH AND FRENCH
 binary_article = Dimension("DEFINITENESS", ["DEF", "INDF"])

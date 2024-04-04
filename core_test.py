@@ -14,7 +14,7 @@
 # limitations under the License.
 """Tests for core."""
 from absl.testing import absltest
-from multi_morph_checklist import core
+import core
 
 
 class CoreTest(absltest.TestCase):

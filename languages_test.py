@@ -14,8 +14,8 @@
 # limitations under the License.
 """Tests for utils."""
 from absl.testing import absltest
-from multi_morph_checklist import core
-from multi_morph_checklist import languages
+import core
+import languages
 
 
 class UtilsTest(absltest.TestCase):
