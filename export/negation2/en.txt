@@ -1,2 +1,500 @@
-C: Mary is a teacher, Rachel is a lawyer. Q: Who is not a teacher? A: Rachel.
-C: Clark is a doctor, Sophia and Charlotte are cooks. Q: Who are not doctors? A: Sophia and Charlotte.
+C: Ross and Joey are accountants, Christopher and Charles are architects. Q: Who are not accountants? A: Christopher and Charles.
+C: John is a policeman, Joseph and Thomas are accountants. Q: Who are not policemen? A: Joseph and Thomas.
+C: Kirk is an actor, James is a policeman. Q: Who is not an actor? A: James.
+C: Mary is an actress, Rachel is a cook. Q: Who is not an actor? A: Rachel.
+C: Steve is an engineer, Christopher and Charles are lawyers. Q: Who are not engineers? A: Christopher and Charles.
+C: Lola is a teacher, Christopher and Charles are cooks. Q: Who are not teachers? A: Christopher and Charles.
+C: Kirk is a scientist, Paul and Bob are accountants. Q: Who are not scientists? A: Paul and Bob.
+C: Ross and Joey are singers, Mark and Andrew are managers. Q: Who are not singers? A: Mark and Andrew.
+C: Susan is a scientist, Mary is a cook. Q: Who is not a scientist? A: Mary.
+C: Ross and Joey are engineers, Mark and Andrew are waiters. Q: Who are not engineers? A: Mark and Andrew.
+C: Clark is a singer, Ross and Joey are doctors. Q: Who are not singers? A: Ross and Joey.
+C: Joseph and Thomas are engineers, Christopher and Charles are teachers. Q: Who are not engineers? A: Christopher and Charles.
+C: Audrey is a scientist, Emma and Monica are accountants. Q: Who are not scientists? A: Emma and Monica.
+C: Kirk is a writer, Clark is a farmer. Q: Who is not a writer? A: Clark.
+C: Olivia and Emily are singers, Emma and Monica are actresses. Q: Who are not singers? A: Emma and Monica.
+C: Lola is a waitress, Rachel is an accountant. Q: Who is not a waiter? A: Rachel.
+C: Paul and Bob are writers, Ross and Joey are engineers. Q: Who are not writers? A: Ross and Joey.
+C: Lola is a doctor, Eleanor and Lillian are teachers. Q: Who are not doctors? A: Eleanor and Lillian.
+C: Rachel is an engineer, Kirk is a lawyer. Q: Who is not an engineer? A: Kirk.
+C: Audrey is a writer, James is an accountant. Q: Who is not a writer? A: James.
+C: Olivia and Emily are policewomen, Sophia and Charlotte are lawyers. Q: Who are not policemen? A: Sophia and Charlotte.
+C: Kirk is an engineer, Clark is an accountant. Q: Who is not an engineer? A: Clark.
+C: Alice and Harper are teachers, Paul and Bob are lawyers. Q: Who are not teachers? A: Paul and Bob.
+C: Alice and Harper are writers, Joseph and Thomas are teachers. Q: Who are not writers? A: Joseph and Thomas.
+C: Mary is a lawyer, Lola is an architect. Q: Who is not a lawyer? A: Lola.
+C: Ross and Joey are engineers, Joseph and Thomas are farmers. Q: Who are not engineers? A: Joseph and Thomas.
+C: Lola is an actress, Kirk is a scientist. Q: Who is not an actor? A: Kirk.
+C: Sophia and Charlotte are lawyers, Ross and Joey are architects. Q: Who are not lawyers? A: Ross and Joey.
+C: Mary is a teacher, Lily is a farmer. Q: Who is not a teacher? A: Lily.
+C: Mark and Andrew are singers, Christopher and Charles are scientists. Q: Who are not singers? A: Christopher and Charles.
+C: Eleanor and Lillian are actresses, Mark and Andrew are architects. Q: Who are not actors? A: Mark and Andrew.
+C: Steve is a singer, James is an architect. Q: Who is not a singer? A: James.
+C: Susan is a teacher, Rachel is an actress. Q: Who is not a teacher? A: Rachel.
+C: James is a policeman, Paul and Bob are accountants. Q: Who are not policemen? A: Paul and Bob.
+C: Eleanor and Lillian are writers, Paul and Bob are architects. Q: Who are not writers? A: Paul and Bob.
+C: Rachel is a teacher, Olivia and Emily are actresses. Q: Who are not teachers? A: Olivia and Emily.
+C: James is a waiter, Paul and Bob are managers. Q: Who are not waiters? A: Paul and Bob.
+C: Olivia and Emily are actresses, Eleanor and Lillian are scientists. Q: Who are not actors? A: Eleanor and Lillian.
+C: Lola is a singer, Audrey is a writer. Q: Who is not a singer? A: Audrey.
+C: Steve is a singer, Mark and Andrew are policemen. Q: Who are not singers? A: Mark and Andrew.
+C: Ross and Joey are engineers, Christopher and Charles are architects. Q: Who are not engineers? A: Christopher and Charles.
+C: Robert is an engineer, Christopher and Charles are waiters. Q: Who are not engineers? A: Christopher and Charles.
+C: Sophia and Charlotte are waitresses, Eleanor and Lillian are scientists. Q: Who are not waiters? A: Eleanor and Lillian.
+C: Steve is a singer, Robert is a cook. Q: Who is not a singer? A: Robert.
+C: Lola is a singer, Sophia and Charlotte are waitresses. Q: Who are not singers? A: Sophia and Charlotte.
+C: Ross and Joey are singers, Joseph and Thomas are writers. Q: Who are not singers? A: Joseph and Thomas.
+C: Audrey is a teacher, Lily is an architect. Q: Who is not a teacher? A: Lily.
+C: Audrey is a waitress, Joseph and Thomas are scientists. Q: Who are not waiters? A: Joseph and Thomas.
+C: Clark is an engineer, Emma and Monica are farmers. Q: Who are not engineers? A: Emma and Monica.
+C: Audrey is a waitress, Emma and Monica are actresses. Q: Who are not waiters? A: Emma and Monica.
+C: Paul and Bob are lawyers, Ross and Joey are architects. Q: Who are not lawyers? A: Ross and Joey.
+C: Emma and Monica are accountants, Mark and Andrew are architects. Q: Who are not accountants? A: Mark and Andrew.
+C: Alice and Harper are actresses, Joseph and Thomas are policemen. Q: Who are not actors? A: Joseph and Thomas.
+C: Susan is a doctor, Emma and Monica are farmers. Q: Who are not doctors? A: Emma and Monica.
+C: Paul and Bob are singers, Mark and Andrew are lawyers. Q: Who are not singers? A: Mark and Andrew.
+C: Lola is a scientist, Audrey is a farmer. Q: Who is not a scientist? A: Audrey.
+C: Mark and Andrew are waiters, Christopher and Charles are policemen. Q: Who are not waiters? A: Christopher and Charles.
+C: Emma and Monica are actresses, Alice and Harper are cooks. Q: Who are not actors? A: Alice and Harper.
+C: Mary is a doctor, Steve is an accountant. Q: Who is not a doctor? A: Steve.
+C: Clark is a writer, Christopher and Charles are actors. Q: Who are not writers? A: Christopher and Charles.
+C: Susan is a singer, Lily is a manager. Q: Who is not a singer? A: Lily.
+C: Paul and Bob are engineers, Ross and Joey are scientists. Q: Who are not engineers? A: Ross and Joey.
+C: Lola is a scientist, Christopher and Charles are lawyers. Q: Who are not scientists? A: Christopher and Charles.
+C: James is a policeman, Robert is a farmer. Q: Who is not a policeman? A: Robert.
+C: James is a waiter, Olivia and Emily are architects. Q: Who are not waiters? A: Olivia and Emily.
+C: Mary is a waitress, Sophia and Charlotte are actresses. Q: Who are not waiters? A: Sophia and Charlotte.
+C: Lily is a writer, Paul and Bob are doctors. Q: Who are not writers? A: Paul and Bob.
+C: Lola is a writer, Alice and Harper are lawyers. Q: Who are not writers? A: Alice and Harper.
+C: Audrey is a lawyer, Paul and Bob are architects. Q: Who are not lawyers? A: Paul and Bob.
+C: Kirk is a doctor, Paul and Bob are farmers. Q: Who are not doctors? A: Paul and Bob.
+C: Lily is a waitress, Christopher and Charles are accountants. Q: Who are not waiters? A: Christopher and Charles.
+C: Olivia and Emily are doctors, Mark and Andrew are waiters. Q: Who are not doctors? A: Mark and Andrew.
+C: John is a teacher, Christopher and Charles are waiters. Q: Who are not teachers? A: Christopher and Charles.
+C: Robert is a doctor, Olivia and Emily are waitresses. Q: Who are not doctors? A: Olivia and Emily.
+C: Mark and Andrew are doctors, Joseph and Thomas are scientists. Q: Who are not doctors? A: Joseph and Thomas.
+C: Emma and Monica are actresses, Alice and Harper are lawyers. Q: Who are not actors? A: Alice and Harper.
+C: Lily is a manager, Paul and Bob are architects. Q: Who are not managers? A: Paul and Bob.
+C: Olivia and Emily are managers, Christopher and Charles are accountants. Q: Who are not managers? A: Christopher and Charles.
+C: Eleanor and Lillian are writers, Paul and Bob are engineers. Q: Who are not writers? A: Paul and Bob.
+C: Ross and Joey are engineers, Joseph and Thomas are managers. Q: Who are not engineers? A: Joseph and Thomas.
+C: Mark and Andrew are scientists, Christopher and Charles are accountants. Q: Who are not scientists? A: Christopher and Charles.
+C: Audrey is a waitress, Alice and Harper are cooks. Q: Who are not waiters? A: Alice and Harper.
+C: Olivia and Emily are waitresses, Emma and Monica are architects. Q: Who are not waiters? A: Emma and Monica.
+C: Susan is a singer, Sophia and Charlotte are lawyers. Q: Who are not singers? A: Sophia and Charlotte.
+C: Susan is an actress, Steve is a policeman. Q: Who is not an actor? A: Steve.
+C: Sophia and Charlotte are singers, Alice and Harper are farmers. Q: Who are not singers? A: Alice and Harper.
+C: Audrey is a teacher, Mark and Andrew are architects. Q: Who are not teachers? A: Mark and Andrew.
+C: John is a doctor, Sophia and Charlotte are architects. Q: Who are not doctors? A: Sophia and Charlotte.
+C: Audrey is a writer, James is a doctor. Q: Who is not a writer? A: James.
+C: Paul and Bob are waiters, Ross and Joey are lawyers. Q: Who are not waiters? A: Ross and Joey.
+C: Mary is a writer, Robert is a cook. Q: Who is not a writer? A: Robert.
+C: Mary is a doctor, Paul and Bob are teachers. Q: Who are not doctors? A: Paul and Bob.
+C: Emma and Monica are doctors, Alice and Harper are farmers. Q: Who are not doctors? A: Alice and Harper.
+C: Audrey is an actress, Emma and Monica are architects. Q: Who are not actors? A: Emma and Monica.
+C: Robert is a doctor, Christopher and Charles are scientists. Q: Who are not doctors? A: Christopher and Charles.
+C: Steve is a singer, John is a cook. Q: Who is not a singer? A: John.
+C: Mary is a doctor, Lola is a farmer. Q: Who is not a doctor? A: Lola.
+C: John is a policeman, Robert is an architect. Q: Who is not a policeman? A: Robert.
+C: James is a singer, Alice and Harper are farmers. Q: Who are not singers? A: Alice and Harper.
+C: Alice and Harper are singers, Ross and Joey are writers. Q: Who are not singers? A: Ross and Joey.
+C: Olivia and Emily are writers, Emma and Monica are policewomen. Q: Who are not writers? A: Emma and Monica.
+C: Sophia and Charlotte are singers, Eleanor and Lillian are waitresses. Q: Who are not singers? A: Eleanor and Lillian.
+C: Robert is a manager, Sophia and Charlotte are cooks. Q: Who are not managers? A: Sophia and Charlotte.
+C: Audrey is a waitress, Alice and Harper are actresses. Q: Who are not waiters? A: Alice and Harper.
+C: Lola is a doctor, Ross and Joey are accountants. Q: Who are not doctors? A: Ross and Joey.
+C: Mary is an architect, James is a farmer. Q: Who is not an architect? A: James.
+C: Lily is an engineer, James is a policeman. Q: Who is not an engineer? A: James.
+C: Lola is a singer, Rachel is a farmer. Q: Who is not a singer? A: Rachel.
+C: Rachel is a scientist, Clark is a lawyer. Q: Who is not a scientist? A: Clark.
+C: John is a singer, Kirk is an actor. Q: Who is not a singer? A: Kirk.
+C: Emma and Monica are writers, Joseph and Thomas are scientists. Q: Who are not writers? A: Joseph and Thomas.
+C: Emma and Monica are engineers, Alice and Harper are teachers. Q: Who are not engineers? A: Alice and Harper.
+C: Audrey is a singer, Joseph and Thomas are waiters. Q: Who are not singers? A: Joseph and Thomas.
+C: Susan is a writer, Alice and Harper are lawyers. Q: Who are not writers? A: Alice and Harper.
+C: Steve is an engineer, Sophia and Charlotte are actresses. Q: Who are not engineers? A: Sophia and Charlotte.
+C: Lola is an engineer, Clark is a waiter. Q: Who is not an engineer? A: Clark.
+C: Robert is a doctor, Mark and Andrew are actors. Q: Who are not doctors? A: Mark and Andrew.
+C: Mary is an engineer, Alice and Harper are accountants. Q: Who are not engineers? A: Alice and Harper.
+C: Rachel is an actress, John is an architect. Q: Who is not an actor? A: John.
+C: James is a writer, Emma and Monica are cooks. Q: Who are not writers? A: Emma and Monica.
+C: Paul and Bob are managers, Mark and Andrew are accountants. Q: Who are not managers? A: Mark and Andrew.
+C: Mary is a waitress, James is a cook. Q: Who is not a waiter? A: James.
+C: Clark is a manager, Christopher and Charles are cooks. Q: Who are not managers? A: Christopher and Charles.
+C: John is a teacher, Sophia and Charlotte are managers. Q: Who are not teachers? A: Sophia and Charlotte.
+C: Lola is a policewoman, Ross and Joey are lawyers. Q: Who are not policemen? A: Ross and Joey.
+C: Rachel is an actress, Christopher and Charles are farmers. Q: Who are not actors? A: Christopher and Charles.
+C: Steve is a writer, Alice and Harper are architects. Q: Who are not writers? A: Alice and Harper.
+C: John is an accountant, Christopher and Charles are farmers. Q: Who are not accountants? A: Christopher and Charles.
+C: Kirk is an actor, Paul and Bob are managers. Q: Who are not actors? A: Paul and Bob.
+C: Ross and Joey are singers, Joseph and Thomas are actors. Q: Who are not singers? A: Joseph and Thomas.
+C: Clark is a teacher, James is an accountant. Q: Who is not a teacher? A: James.
+C: Lily is a cook, James is a farmer. Q: Who is not a cook? A: James.
+C: Kirk is a writer, Eleanor and Lillian are doctors. Q: Who are not writers? A: Eleanor and Lillian.
+C: John is an engineer, Kirk is a scientist. Q: Who is not an engineer? A: Kirk.
+C: Susan is an engineer, Paul and Bob are architects. Q: Who are not engineers? A: Paul and Bob.
+C: Lola is a manager, Lily is a cook. Q: Who is not a manager? A: Lily.
+C: Mary is a doctor, Lily is a scientist. Q: Who is not a doctor? A: Lily.
+C: Mary is a policewoman, Audrey is a scientist. Q: Who is not a policeman? A: Audrey.
+C: Mary is a teacher, Olivia and Emily are architects. Q: Who are not teachers? A: Olivia and Emily.
+C: Clark is a writer, James is an accountant. Q: Who is not a writer? A: James.
+C: Steve is a policeman, Paul and Bob are managers. Q: Who are not policemen? A: Paul and Bob.
+C: John is a lawyer, Kirk is a farmer. Q: Who is not a lawyer? A: Kirk.
+C: Steve is a manager, Clark is a cook. Q: Who is not a manager? A: Clark.
+C: Lily is a teacher, Paul and Bob are architects. Q: Who are not teachers? A: Paul and Bob.
+C: Sophia and Charlotte are singers, Ross and Joey are accountants. Q: Who are not singers? A: Ross and Joey.
+C: Mark and Andrew are cooks, Christopher and Charles are farmers. Q: Who are not cooks? A: Christopher and Charles.
+C: Paul and Bob are actors, Ross and Joey are lawyers. Q: Who are not actors? A: Ross and Joey.
+C: Lola is an engineer, Audrey is a policewoman. Q: Who is not an engineer? A: Audrey.
+C: John is an engineer, Kirk is a lawyer. Q: Who is not an engineer? A: Kirk.
+C: Audrey is an actress, Emma and Monica are policewomen. Q: Who are not actors? A: Emma and Monica.
+C: Paul and Bob are engineers, Mark and Andrew are doctors. Q: Who are not engineers? A: Mark and Andrew.
+C: Susan is an engineer, Steve is a cook. Q: Who is not an engineer? A: Steve.
+C: Mary is a manager, Christopher and Charles are lawyers. Q: Who are not managers? A: Christopher and Charles.
+C: Eleanor and Lillian are policewomen, Joseph and Thomas are lawyers. Q: Who are not policemen? A: Joseph and Thomas.
+C: Rachel is a doctor, Ross and Joey are accountants. Q: Who are not doctors? A: Ross and Joey.
+C: Lily is a policewoman, Sophia and Charlotte are architects. Q: Who are not policemen? A: Sophia and Charlotte.
+C: Olivia and Emily are doctors, Emma and Monica are accountants. Q: Who are not doctors? A: Emma and Monica.
+C: Lola is a doctor, Olivia and Emily are actresses. Q: Who are not doctors? A: Olivia and Emily.
+C: Rachel is a doctor, Emma and Monica are lawyers. Q: Who are not doctors? A: Emma and Monica.
+C: Clark is a writer, Emma and Monica are engineers. Q: Who are not writers? A: Emma and Monica.
+C: Alice and Harper are policewomen, Eleanor and Lillian are managers. Q: Who are not policemen? A: Eleanor and Lillian.
+C: Olivia and Emily are singers, Alice and Harper are architects. Q: Who are not singers? A: Alice and Harper.
+C: Robert is a doctor, Olivia and Emily are actresses. Q: Who are not doctors? A: Olivia and Emily.
+C: Joseph and Thomas are writers, Christopher and Charles are engineers. Q: Who are not writers? A: Christopher and Charles.
+C: Steve is a singer, Emma and Monica are scientists. Q: Who are not singers? A: Emma and Monica.
+C: Emma and Monica are teachers, Eleanor and Lillian are cooks. Q: Who are not teachers? A: Eleanor and Lillian.
+C: Clark is a writer, Sophia and Charlotte are engineers. Q: Who are not writers? A: Sophia and Charlotte.
+C: Alice and Harper are engineers, Eleanor and Lillian are teachers. Q: Who are not engineers? A: Eleanor and Lillian.
+C: Kirk is a scientist, Clark is a lawyer. Q: Who is not a scientist? A: Clark.
+C: Paul and Bob are doctors, Christopher and Charles are accountants. Q: Who are not doctors? A: Christopher and Charles.
+C: Mary is a teacher, James is a lawyer. Q: Who is not a teacher? A: James.
+C: Emma and Monica are writers, Ross and Joey are doctors. Q: Who are not writers? A: Ross and Joey.
+C: Eleanor and Lillian are waitresses, Mark and Andrew are scientists. Q: Who are not waiters? A: Mark and Andrew.
+C: Lily is a policewoman, James is a scientist. Q: Who is not a policeman? A: James.
+C: Lola is a scientist, Sophia and Charlotte are accountants. Q: Who are not scientists? A: Sophia and Charlotte.
+C: Lola is a writer, Christopher and Charles are architects. Q: Who are not writers? A: Christopher and Charles.
+C: Mary is a doctor, Robert is a teacher. Q: Who is not a doctor? A: Robert.
+C: Audrey is a scientist, Joseph and Thomas are lawyers. Q: Who are not scientists? A: Joseph and Thomas.
+C: Robert is a singer, Olivia and Emily are doctors. Q: Who are not singers? A: Olivia and Emily.
+C: James is a doctor, Alice and Harper are architects. Q: Who are not doctors? A: Alice and Harper.
+C: Lola is a scientist, Joseph and Thomas are farmers. Q: Who are not scientists? A: Joseph and Thomas.
+C: Kirk is a teacher, Emma and Monica are waitresses. Q: Who are not teachers? A: Emma and Monica.
+C: Mary is a doctor, Olivia and Emily are actresses. Q: Who are not doctors? A: Olivia and Emily.
+C: Mary is a waitress, Audrey is a cook. Q: Who is not a waiter? A: Audrey.
+C: Emma and Monica are doctors, Sophia and Charlotte are managers. Q: Who are not doctors? A: Sophia and Charlotte.
+C: Mary is a writer, Audrey is an accountant. Q: Who is not a writer? A: Audrey.
+C: Olivia and Emily are writers, Alice and Harper are waitresses. Q: Who are not writers? A: Alice and Harper.
+C: Alice and Harper are teachers, Joseph and Thomas are accountants. Q: Who are not teachers? A: Joseph and Thomas.
+C: Emma and Monica are scientists, Alice and Harper are accountants. Q: Who are not scientists? A: Alice and Harper.
+C: Steve is a waiter, Robert is a manager. Q: Who is not a waiter? A: Robert.
+C: Lily is a writer, Mark and Andrew are scientists. Q: Who are not writers? A: Mark and Andrew.
+C: Audrey is a writer, Joseph and Thomas are managers. Q: Who are not writers? A: Joseph and Thomas.
+C: Mary is a doctor, Lola is a waitress. Q: Who is not a doctor? A: Lola.
+C: Paul and Bob are singers, Ross and Joey are teachers. Q: Who are not singers? A: Ross and Joey.
+C: Steve is a singer, Kirk is a waiter. Q: Who is not a singer? A: Kirk.
+C: Kirk is a singer, James is a writer. Q: Who is not a singer? A: James.
+C: Steve is a writer, Kirk is an accountant. Q: Who is not a writer? A: Kirk.
+C: Audrey is a waitress, Paul and Bob are architects. Q: Who are not waiters? A: Paul and Bob.
+C: Susan is a scientist, Lily is a farmer. Q: Who is not a scientist? A: Lily.
+C: James is an actor, Olivia and Emily are scientists. Q: Who are not actors? A: Olivia and Emily.
+C: Mary is a teacher, Mark and Andrew are lawyers. Q: Who are not teachers? A: Mark and Andrew.
+C: Susan is a doctor, Rachel is an architect. Q: Who is not a doctor? A: Rachel.
+C: Susan is an actress, Lola is an accountant. Q: Who is not an actor? A: Lola.
+C: Mary is a singer, Joseph and Thomas are waiters. Q: Who are not singers? A: Joseph and Thomas.
+C: Olivia and Emily are teachers, Ross and Joey are waiters. Q: Who are not teachers? A: Ross and Joey.
+C: Clark is a waiter, Paul and Bob are policemen. Q: Who are not waiters? A: Paul and Bob.
+C: John is a waiter, Joseph and Thomas are actors. Q: Who are not waiters? A: Joseph and Thomas.
+C: Audrey is a singer, Ross and Joey are doctors. Q: Who are not singers? A: Ross and Joey.
+C: John is a writer, Sophia and Charlotte are lawyers. Q: Who are not writers? A: Sophia and Charlotte.
+C: Olivia and Emily are doctors, Paul and Bob are teachers. Q: Who are not doctors? A: Paul and Bob.
+C: Susan is an architect, Sophia and Charlotte are farmers. Q: Who are not architects? A: Sophia and Charlotte.
+C: Rachel is a writer, Clark is a farmer. Q: Who is not a writer? A: Clark.
+C: Emma and Monica are scientists, Joseph and Thomas are cooks. Q: Who are not scientists? A: Joseph and Thomas.
+C: Mary is a teacher, Clark is an actor. Q: Who is not a teacher? A: Clark.
+C: Mark and Andrew are scientists, Joseph and Thomas are accountants. Q: Who are not scientists? A: Joseph and Thomas.
+C: Steve is an engineer, Ross and Joey are cooks. Q: Who are not engineers? A: Ross and Joey.
+C: John is a lawyer, Kirk is an architect. Q: Who is not a lawyer? A: Kirk.
+C: Clark is a writer, Sophia and Charlotte are managers. Q: Who are not writers? A: Sophia and Charlotte.
+C: Emma and Monica are teachers, Eleanor and Lillian are farmers. Q: Who are not teachers? A: Eleanor and Lillian.
+C: Emma and Monica are scientists, Eleanor and Lillian are accountants. Q: Who are not scientists? A: Eleanor and Lillian.
+C: Rachel is a doctor, Audrey is a teacher. Q: Who is not a doctor? A: Audrey.
+C: Mary is an engineer, Robert is a policeman. Q: Who is not an engineer? A: Robert.
+C: Ross and Joey are writers, Christopher and Charles are policemen. Q: Who are not writers? A: Christopher and Charles.
+C: Kirk is a doctor, Olivia and Emily are architects. Q: Who are not doctors? A: Olivia and Emily.
+C: Emma and Monica are writers, Paul and Bob are doctors. Q: Who are not writers? A: Paul and Bob.
+C: Olivia and Emily are scientists, Christopher and Charles are lawyers. Q: Who are not scientists? A: Christopher and Charles.
+C: Robert is a scientist, Eleanor and Lillian are farmers. Q: Who are not scientists? A: Eleanor and Lillian.
+C: Olivia and Emily are doctors, Eleanor and Lillian are scientists. Q: Who are not doctors? A: Eleanor and Lillian.
+C: Clark is an engineer, Christopher and Charles are teachers. Q: Who are not engineers? A: Christopher and Charles.
+C: Susan is an engineer, Mark and Andrew are waiters. Q: Who are not engineers? A: Mark and Andrew.
+C: Mary is a doctor, Emma and Monica are policewomen. Q: Who are not doctors? A: Emma and Monica.
+C: Ross and Joey are lawyers, Mark and Andrew are architects. Q: Who are not lawyers? A: Mark and Andrew.
+C: Mary is a writer, Olivia and Emily are teachers. Q: Who are not writers? A: Olivia and Emily.
+C: Susan is a doctor, Lily is a teacher. Q: Who is not a doctor? A: Lily.
+C: Sophia and Charlotte are waitresses, Ross and Joey are accountants. Q: Who are not waiters? A: Ross and Joey.
+C: Susan is a teacher, Emma and Monica are actresses. Q: Who are not teachers? A: Emma and Monica.
+C: James is a cook, Mark and Andrew are accountants. Q: Who are not cooks? A: Mark and Andrew.
+C: Audrey is a teacher, Christopher and Charles are lawyers. Q: Who are not teachers? A: Christopher and Charles.
+C: Paul and Bob are singers, Christopher and Charles are actors. Q: Who are not singers? A: Christopher and Charles.
+C: Susan is an actress, Sophia and Charlotte are policewomen. Q: Who are not actors? A: Sophia and Charlotte.
+C: Joseph and Thomas are teachers, Christopher and Charles are farmers. Q: Who are not teachers? A: Christopher and Charles.
+C: Paul and Bob are singers, Joseph and Thomas are scientists. Q: Who are not singers? A: Joseph and Thomas.
+C: Robert is a singer, Sophia and Charlotte are engineers. Q: Who are not singers? A: Sophia and Charlotte.
+C: Steve is an engineer, Kirk is an accountant. Q: Who is not an engineer? A: Kirk.
+C: Olivia and Emily are managers, Emma and Monica are lawyers. Q: Who are not managers? A: Emma and Monica.
+C: Mary is an engineer, Eleanor and Lillian are lawyers. Q: Who are not engineers? A: Eleanor and Lillian.
+C: Steve is a policeman, Robert is a cook. Q: Who is not a policeman? A: Robert.
+C: Paul and Bob are scientists, Joseph and Thomas are lawyers. Q: Who are not scientists? A: Joseph and Thomas.
+C: John is a cook, Sophia and Charlotte are lawyers. Q: Who are not cooks? A: Sophia and Charlotte.
+C: Olivia and Emily are accountants, Paul and Bob are farmers. Q: Who are not accountants? A: Paul and Bob.
+C: Emma and Monica are managers, Sophia and Charlotte are farmers. Q: Who are not managers? A: Sophia and Charlotte.
+C: Eleanor and Lillian are engineers, Christopher and Charles are doctors. Q: Who are not engineers? A: Christopher and Charles.
+C: Audrey is a lawyer, Eleanor and Lillian are farmers. Q: Who are not lawyers? A: Eleanor and Lillian.
+C: Alice and Harper are scientists, Mark and Andrew are cooks. Q: Who are not scientists? A: Mark and Andrew.
+C: Kirk is a writer, Christopher and Charles are scientists. Q: Who are not writers? A: Christopher and Charles.
+C: Olivia and Emily are doctors, Christopher and Charles are cooks. Q: Who are not doctors? A: Christopher and Charles.
+C: Kirk is a writer, Clark is a cook. Q: Who is not a writer? A: Clark.
+C: Clark is a teacher, Eleanor and Lillian are cooks. Q: Who are not teachers? A: Eleanor and Lillian.
+C: Olivia and Emily are writers, Alice and Harper are scientists. Q: Who are not writers? A: Alice and Harper.
+C: Susan is an engineer, Mark and Andrew are teachers. Q: Who are not engineers? A: Mark and Andrew.
+C: Clark is a doctor, Eleanor and Lillian are policewomen. Q: Who are not doctors? A: Eleanor and Lillian.
+C: Mary is a writer, Robert is a manager. Q: Who is not a writer? A: Robert.
+C: Clark is a cook, Paul and Bob are lawyers. Q: Who are not cooks? A: Paul and Bob.
+C: Rachel is a policewoman, Audrey is a cook. Q: Who is not a policeman? A: Audrey.
+C: Audrey is a manager, Lily is an architect. Q: Who is not a manager? A: Lily.
+C: Audrey is a scientist, Paul and Bob are managers. Q: Who are not scientists? A: Paul and Bob.
+C: Rachel is a cook, Sophia and Charlotte are architects. Q: Who are not cooks? A: Sophia and Charlotte.
+C: Susan is a lawyer, Clark is an architect. Q: Who is not a lawyer? A: Clark.
+C: Audrey is a manager, Robert is a cook. Q: Who is not a manager? A: Robert.
+C: Lily is a waitress, Sophia and Charlotte are scientists. Q: Who are not waiters? A: Sophia and Charlotte.
+C: Lily is a scientist, Christopher and Charles are lawyers. Q: Who are not scientists? A: Christopher and Charles.
+C: Olivia and Emily are actresses, Sophia and Charlotte are cooks. Q: Who are not actors? A: Sophia and Charlotte.
+C: Steve is a lawyer, Sophia and Charlotte are farmers. Q: Who are not lawyers? A: Sophia and Charlotte.
+C: Susan is an engineer, Olivia and Emily are policewomen. Q: Who are not engineers? A: Olivia and Emily.
+C: Lily is a cook, Sophia and Charlotte are architects. Q: Who are not cooks? A: Sophia and Charlotte.
+C: Steve is a cook, Robert is an architect. Q: Who is not a cook? A: Robert.
+C: Olivia and Emily are writers, Eleanor and Lillian are managers. Q: Who are not writers? A: Eleanor and Lillian.
+C: Mark and Andrew are lawyers, Christopher and Charles are architects. Q: Who are not lawyers? A: Christopher and Charles.
+C: Emma and Monica are scientists, Joseph and Thomas are architects. Q: Who are not scientists? A: Joseph and Thomas.
+C: Audrey is a teacher, Emma and Monica are actresses. Q: Who are not teachers? A: Emma and Monica.
+C: Audrey is a writer, Robert is a manager. Q: Who is not a writer? A: Robert.
+C: Kirk is a policeman, Christopher and Charles are cooks. Q: Who are not policemen? A: Christopher and Charles.
+C: Alice and Harper are singers, Paul and Bob are doctors. Q: Who are not singers? A: Paul and Bob.
+C: Olivia and Emily are writers, Eleanor and Lillian are teachers. Q: Who are not writers? A: Eleanor and Lillian.
+C: Steve is a waiter, Alice and Harper are lawyers. Q: Who are not waiters? A: Alice and Harper.
+C: Joseph and Thomas are engineers, Christopher and Charles are managers. Q: Who are not engineers? A: Christopher and Charles.
+C: Robert is a scientist, Mark and Andrew are architects. Q: Who are not scientists? A: Mark and Andrew.
+C: Susan is an actress, Lola is an architect. Q: Who is not an actor? A: Lola.
+C: Lily is an engineer, Mark and Andrew are accountants. Q: Who are not engineers? A: Mark and Andrew.
+C: Clark is a teacher, Christopher and Charles are lawyers. Q: Who are not teachers? A: Christopher and Charles.
+C: Kirk is an engineer, Robert is an accountant. Q: Who is not an engineer? A: Robert.
+C: Lola is a teacher, Christopher and Charles are accountants. Q: Who are not teachers? A: Christopher and Charles.
+C: James is a teacher, Robert is a farmer. Q: Who is not a teacher? A: Robert.
+C: Lily is a waitress, John is a farmer. Q: Who is not a waiter? A: John.
+C: James is a cook, Robert is an accountant. Q: Who is not a cook? A: Robert.
+C: Sophia and Charlotte are managers, Mark and Andrew are cooks. Q: Who are not managers? A: Mark and Andrew.
+C: Emma and Monica are teachers, Paul and Bob are managers. Q: Who are not teachers? A: Paul and Bob.
+C: Olivia and Emily are doctors, Joseph and Thomas are scientists. Q: Who are not doctors? A: Joseph and Thomas.
+C: Olivia and Emily are actresses, Eleanor and Lillian are managers. Q: Who are not actors? A: Eleanor and Lillian.
+C: John is a doctor, Eleanor and Lillian are actresses. Q: Who are not doctors? A: Eleanor and Lillian.
+C: Mary is a scientist, Lola is a farmer. Q: Who is not a scientist? A: Lola.
+C: James is a doctor, Robert is a cook. Q: Who is not a doctor? A: Robert.
+C: Paul and Bob are actors, Mark and Andrew are policemen. Q: Who are not actors? A: Mark and Andrew.
+C: Susan is a policewoman, Lola is an architect. Q: Who is not a policeman? A: Lola.
+C: Audrey is a teacher, John is a waiter. Q: Who is not a teacher? A: John.
+C: Steve is a policeman, Christopher and Charles are managers. Q: Who are not policemen? A: Christopher and Charles.
+C: Rachel is a singer, Joseph and Thomas are managers. Q: Who are not singers? A: Joseph and Thomas.
+C: Robert is a manager, Eleanor and Lillian are accountants. Q: Who are not managers? A: Eleanor and Lillian.
+C: Mary is a waitress, Steve is a policeman. Q: Who is not a waiter? A: Steve.
+C: James is a doctor, Eleanor and Lillian are policewomen. Q: Who are not doctors? A: Eleanor and Lillian.
+C: Clark is a singer, Emma and Monica are architects. Q: Who are not singers? A: Emma and Monica.
+C: Sophia and Charlotte are teachers, Eleanor and Lillian are lawyers. Q: Who are not teachers? A: Eleanor and Lillian.
+C: Lola is a teacher, Audrey is an accountant. Q: Who is not a teacher? A: Audrey.
+C: Joseph and Thomas are waiters, Christopher and Charles are policemen. Q: Who are not waiters? A: Christopher and Charles.
+C: Paul and Bob are doctors, Mark and Andrew are actors. Q: Who are not doctors? A: Mark and Andrew.
+C: John is a policeman, Ross and Joey are scientists. Q: Who are not policemen? A: Ross and Joey.
+C: Steve is a cook, Joseph and Thomas are architects. Q: Who are not cooks? A: Joseph and Thomas.
+C: Steve is a writer, John is a waiter. Q: Who is not a writer? A: John.
+C: Mary is a scientist, Alice and Harper are farmers. Q: Who are not scientists? A: Alice and Harper.
+C: Lola is a teacher, Paul and Bob are policemen. Q: Who are not teachers? A: Paul and Bob.
+C: Lola is a teacher, Olivia and Emily are actresses. Q: Who are not teachers? A: Olivia and Emily.
+C: Rachel is a manager, Sophia and Charlotte are accountants. Q: Who are not managers? A: Sophia and Charlotte.
+C: John is an engineer, Christopher and Charles are policemen. Q: Who are not engineers? A: Christopher and Charles.
+C: Susan is a singer, Lily is a farmer. Q: Who is not a singer? A: Lily.
+C: Lily is a singer, John is a farmer. Q: Who is not a singer? A: John.
+C: Kirk is a manager, Robert is a lawyer. Q: Who is not a manager? A: Robert.
+C: Audrey is an engineer, Eleanor and Lillian are lawyers. Q: Who are not engineers? A: Eleanor and Lillian.
+C: Clark is a writer, Ross and Joey are cooks. Q: Who are not writers? A: Ross and Joey.
+C: Susan is a writer, James is a scientist. Q: Who is not a writer? A: James.
+C: John is a waiter, Robert is an architect. Q: Who is not a waiter? A: Robert.
+C: Kirk is a lawyer, Clark is a farmer. Q: Who is not a lawyer? A: Clark.
+C: Rachel is an engineer, Audrey is a farmer. Q: Who is not an engineer? A: Audrey.
+C: Olivia and Emily are writers, Sophia and Charlotte are lawyers. Q: Who are not writers? A: Sophia and Charlotte.
+C: Mary is a singer, Lola is an architect. Q: Who is not a singer? A: Lola.
+C: Olivia and Emily are policewomen, Paul and Bob are accountants. Q: Who are not policemen? A: Paul and Bob.
+C: Audrey is a writer, Eleanor and Lillian are accountants. Q: Who are not writers? A: Eleanor and Lillian.
+C: Paul and Bob are cooks, Christopher and Charles are architects. Q: Who are not cooks? A: Christopher and Charles.
+C: Mark and Andrew are singers, Christopher and Charles are doctors. Q: Who are not singers? A: Christopher and Charles.
+C: Sophia and Charlotte are engineers, Alice and Harper are doctors. Q: Who are not engineers? A: Alice and Harper.
+C: Susan is a cook, Ross and Joey are lawyers. Q: Who are not cooks? A: Ross and Joey.
+C: Lola is an engineer, Joseph and Thomas are architects. Q: Who are not engineers? A: Joseph and Thomas.
+C: Olivia and Emily are engineers, Emma and Monica are actresses. Q: Who are not engineers? A: Emma and Monica.
+C: Rachel is a writer, Christopher and Charles are policemen. Q: Who are not writers? A: Christopher and Charles.
+C: Lily is a teacher, Emma and Monica are scientists. Q: Who are not teachers? A: Emma and Monica.
+C: Mark and Andrew are waiters, Christopher and Charles are lawyers. Q: Who are not waiters? A: Christopher and Charles.
+C: Rachel is a doctor, Lily is an architect. Q: Who is not a doctor? A: Lily.
+C: Rachel is a teacher, Joseph and Thomas are accountants. Q: Who are not teachers? A: Joseph and Thomas.
+C: Olivia and Emily are teachers, Joseph and Thomas are scientists. Q: Who are not teachers? A: Joseph and Thomas.
+C: Paul and Bob are doctors, Ross and Joey are architects. Q: Who are not doctors? A: Ross and Joey.
+C: Mary is a teacher, Ross and Joey are waiters. Q: Who are not teachers? A: Ross and Joey.
+C: Olivia and Emily are doctors, Eleanor and Lillian are policewomen. Q: Who are not doctors? A: Eleanor and Lillian.
+C: Paul and Bob are singers, Joseph and Thomas are cooks. Q: Who are not singers? A: Joseph and Thomas.
+C: Susan is a doctor, Clark is an accountant. Q: Who is not a doctor? A: Clark.
+C: Rachel is a cook, Lily is a farmer. Q: Who is not a cook? A: Lily.
+C: Paul and Bob are singers, Christopher and Charles are cooks. Q: Who are not singers? A: Christopher and Charles.
+C: James is a teacher, Ross and Joey are accountants. Q: Who are not teachers? A: Ross and Joey.
+C: Rachel is a cook, Kirk is an accountant. Q: Who is not a cook? A: Kirk.
+C: Steve is a writer, Christopher and Charles are accountants. Q: Who are not writers? A: Christopher and Charles.
+C: Lily is an actress, Steve is a farmer. Q: Who is not an actor? A: Steve.
+C: James is a writer, Robert is an actor. Q: Who is not a writer? A: Robert.
+C: Susan is a scientist, Olivia and Emily are architects. Q: Who are not scientists? A: Olivia and Emily.
+C: Mary is a policewoman, Emma and Monica are lawyers. Q: Who are not policemen? A: Emma and Monica.
+C: Alice and Harper are writers, Paul and Bob are engineers. Q: Who are not writers? A: Paul and Bob.
+C: Audrey is a singer, Sophia and Charlotte are writers. Q: Who are not singers? A: Sophia and Charlotte.
+C: Mary is a writer, Rachel is a manager. Q: Who is not a writer? A: Rachel.
+C: Kirk is a singer, Alice and Harper are actresses. Q: Who are not singers? A: Alice and Harper.
+C: Lola is a singer, Rachel is an architect. Q: Who is not a singer? A: Rachel.
+C: Susan is an engineer, Clark is a doctor. Q: Who is not an engineer? A: Clark.
+C: Olivia and Emily are singers, Sophia and Charlotte are engineers. Q: Who are not singers? A: Sophia and Charlotte.
+C: John is a manager, Mark and Andrew are architects. Q: Who are not managers? A: Mark and Andrew.
+C: Lola is an engineer, James is a doctor. Q: Who is not an engineer? A: James.
+C: Susan is a doctor, John is a teacher. Q: Who is not a doctor? A: John.
+C: Susan is a writer, Clark is an accountant. Q: Who is not a writer? A: Clark.
+C: John is an accountant, Mark and Andrew are architects. Q: Who are not accountants? A: Mark and Andrew.
+C: John is a policeman, Alice and Harper are lawyers. Q: Who are not policemen? A: Alice and Harper.
+C: Paul and Bob are writers, Joseph and Thomas are farmers. Q: Who are not writers? A: Joseph and Thomas.
+C: Olivia and Emily are accountants, Eleanor and Lillian are architects. Q: Who are not accountants? A: Eleanor and Lillian.
+C: Emma and Monica are singers, Ross and Joey are managers. Q: Who are not singers? A: Ross and Joey.
+C: Mary is a policewoman, Paul and Bob are cooks. Q: Who are not policemen? A: Paul and Bob.
+C: Steve is a policeman, Christopher and Charles are accountants. Q: Who are not policemen? A: Christopher and Charles.
+C: Clark is a writer, Joseph and Thomas are teachers. Q: Who are not writers? A: Joseph and Thomas.
+C: Emma and Monica are singers, Ross and Joey are writers. Q: Who are not singers? A: Ross and Joey.
+C: James is an engineer, Emma and Monica are architects. Q: Who are not engineers? A: Emma and Monica.
+C: Mark and Andrew are singers, Christopher and Charles are farmers. Q: Who are not singers? A: Christopher and Charles.
+C: Audrey is an actress, John is a farmer. Q: Who is not an actor? A: John.
+C: Mary is a lawyer, Rachel is a farmer. Q: Who is not a lawyer? A: Rachel.
+C: Steve is an actor, Robert is a policeman. Q: Who is not an actor? A: Robert.
+C: James is a teacher, Christopher and Charles are managers. Q: Who are not teachers? A: Christopher and Charles.
+C: Audrey is an engineer, Christopher and Charles are teachers. Q: Who are not engineers? A: Christopher and Charles.
+C: Susan is an engineer, Mark and Andrew are scientists. Q: Who are not engineers? A: Mark and Andrew.
+C: Susan is a doctor, Joseph and Thomas are scientists. Q: Who are not doctors? A: Joseph and Thomas.
+C: Susan is a doctor, Kirk is a farmer. Q: Who is not a doctor? A: Kirk.
+C: Audrey is a writer, Christopher and Charles are farmers. Q: Who are not writers? A: Christopher and Charles.
+C: Susan is an engineer, Audrey is a manager. Q: Who is not an engineer? A: Audrey.
+C: Olivia and Emily are policewomen, Mark and Andrew are cooks. Q: Who are not policemen? A: Mark and Andrew.
+C: Clark is a singer, Christopher and Charles are writers. Q: Who are not singers? A: Christopher and Charles.
+C: Emma and Monica are doctors, Alice and Harper are managers. Q: Who are not doctors? A: Alice and Harper.
+C: Lily is an accountant, Kirk is a farmer. Q: Who is not an accountant? A: Kirk.
+C: Kirk is a policeman, Emma and Monica are cooks. Q: Who are not policemen? A: Emma and Monica.
+C: Alice and Harper are doctors, Eleanor and Lillian are scientists. Q: Who are not doctors? A: Eleanor and Lillian.
+C: Steve is an engineer, Robert is a manager. Q: Who is not an engineer? A: Robert.
+C: Emma and Monica are singers, Ross and Joey are actors. Q: Who are not singers? A: Ross and Joey.
+C: Rachel is a writer, Emma and Monica are policewomen. Q: Who are not writers? A: Emma and Monica.
+C: Clark is a teacher, James is a farmer. Q: Who is not a teacher? A: James.
+C: Susan is a writer, Lola is an accountant. Q: Who is not a writer? A: Lola.
+C: Sophia and Charlotte are policewomen, Christopher and Charles are lawyers. Q: Who are not policemen? A: Christopher and Charles.
+C: Emma and Monica are singers, Sophia and Charlotte are policewomen. Q: Who are not singers? A: Sophia and Charlotte.
+C: Mary is an engineer, Christopher and Charles are actors. Q: Who are not engineers? A: Christopher and Charles.
+C: Lily is an engineer, Alice and Harper are accountants. Q: Who are not engineers? A: Alice and Harper.
+C: John is a waiter, Robert is a lawyer. Q: Who is not a waiter? A: Robert.
+C: Clark is an engineer, Ross and Joey are scientists. Q: Who are not engineers? A: Ross and Joey.
+C: James is a doctor, Sophia and Charlotte are lawyers. Q: Who are not doctors? A: Sophia and Charlotte.
+C: Ross and Joey are actors, Mark and Andrew are managers. Q: Who are not actors? A: Mark and Andrew.
+C: Olivia and Emily are teachers, Paul and Bob are policemen. Q: Who are not teachers? A: Paul and Bob.
+C: Kirk is a singer, Eleanor and Lillian are doctors. Q: Who are not singers? A: Eleanor and Lillian.
+C: Lola is a teacher, Lily is a lawyer. Q: Who is not a teacher? A: Lily.
+C: James is a writer, Mark and Andrew are farmers. Q: Who are not writers? A: Mark and Andrew.
+C: Emma and Monica are writers, Mark and Andrew are cooks. Q: Who are not writers? A: Mark and Andrew.
+C: Lola is a teacher, Kirk is a waiter. Q: Who is not a teacher? A: Kirk.
+C: Emma and Monica are lawyers, Alice and Harper are accountants. Q: Who are not lawyers? A: Alice and Harper.
+C: Robert is a teacher, Olivia and Emily are architects. Q: Who are not teachers? A: Olivia and Emily.
+C: Lily is a writer, Clark is an actor. Q: Who is not a writer? A: Clark.
+C: Rachel is a waitress, Olivia and Emily are farmers. Q: Who are not waiters? A: Olivia and Emily.
+C: Mary is a scientist, Audrey is a lawyer. Q: Who is not a scientist? A: Audrey.
+C: Audrey is an engineer, Ross and Joey are policemen. Q: Who are not engineers? A: Ross and Joey.
+C: Susan is a policewoman, Eleanor and Lillian are cooks. Q: Who are not policemen? A: Eleanor and Lillian.
+C: Lola is a singer, Alice and Harper are waitresses. Q: Who are not singers? A: Alice and Harper.
+C: Ross and Joey are accountants, Joseph and Thomas are architects. Q: Who are not accountants? A: Joseph and Thomas.
+C: Mark and Andrew are waiters, Christopher and Charles are actors. Q: Who are not waiters? A: Christopher and Charles.
+C: Mary is a doctor, Paul and Bob are waiters. Q: Who are not doctors? A: Paul and Bob.
+C: Clark is a policeman, Emma and Monica are lawyers. Q: Who are not policemen? A: Emma and Monica.
+C: Lily is a singer, Alice and Harper are writers. Q: Who are not singers? A: Alice and Harper.
+C: Steve is a writer, Clark is a policeman. Q: Who is not a writer? A: Clark.
+C: Paul and Bob are teachers, Ross and Joey are waiters. Q: Who are not teachers? A: Ross and Joey.
+C: Sophia and Charlotte are doctors, Alice and Harper are waitresses. Q: Who are not doctors? A: Alice and Harper.
+C: Ross and Joey are policemen, Joseph and Thomas are accountants. Q: Who are not policemen? A: Joseph and Thomas.
+C: Clark is an engineer, Paul and Bob are teachers. Q: Who are not engineers? A: Paul and Bob.
+C: Clark is a doctor, Emma and Monica are architects. Q: Who are not doctors? A: Emma and Monica.
+C: Joseph and Thomas are writers, Christopher and Charles are waiters. Q: Who are not writers? A: Christopher and Charles.
+C: John is an engineer, Alice and Harper are cooks. Q: Who are not engineers? A: Alice and Harper.
+C: Audrey is an engineer, Lily is a cook. Q: Who is not an engineer? A: Lily.
+C: Mark and Andrew are teachers, Joseph and Thomas are farmers. Q: Who are not teachers? A: Joseph and Thomas.
+C: Olivia and Emily are waitresses, Alice and Harper are architects. Q: Who are not waiters? A: Alice and Harper.
+C: Mary is a teacher, Christopher and Charles are policemen. Q: Who are not teachers? A: Christopher and Charles.
+C: Clark is an accountant, Robert is a farmer. Q: Who is not an accountant? A: Robert.
+C: Susan is an engineer, Christopher and Charles are actors. Q: Who are not engineers? A: Christopher and Charles.
+C: James is a teacher, Olivia and Emily are policewomen. Q: Who are not teachers? A: Olivia and Emily.
+C: Lily is a scientist, Paul and Bob are farmers. Q: Who are not scientists? A: Paul and Bob.
+C: John is a singer, James is a writer. Q: Who is not a singer? A: James.
+C: John is a doctor, Alice and Harper are waitresses. Q: Who are not doctors? A: Alice and Harper.
+C: Mary is a singer, Audrey is a doctor. Q: Who is not a singer? A: Audrey.
+C: Kirk is a writer, James is an engineer. Q: Who is not a writer? A: James.
+C: Alice and Harper are writers, Paul and Bob are teachers. Q: Who are not writers? A: Paul and Bob.
+C: John is a scientist, Emma and Monica are cooks. Q: Who are not scientists? A: Emma and Monica.
+C: Audrey is a writer, Ross and Joey are waiters. Q: Who are not writers? A: Ross and Joey.
+C: Alice and Harper are scientists, Mark and Andrew are lawyers. Q: Who are not scientists? A: Mark and Andrew.
+C: Robert is a writer, Ross and Joey are policemen. Q: Who are not writers? A: Ross and Joey.
+C: Robert is a writer, Olivia and Emily are scientists. Q: Who are not writers? A: Olivia and Emily.
+C: Kirk is a cook, Christopher and Charles are architects. Q: Who are not cooks? A: Christopher and Charles.
+C: Clark is an actor, Robert is a scientist. Q: Who is not an actor? A: Robert.
+C: Paul and Bob are actors, Ross and Joey are farmers. Q: Who are not actors? A: Ross and Joey.
+C: Paul and Bob are managers, Christopher and Charles are farmers. Q: Who are not managers? A: Christopher and Charles.
+C: Robert is a waiter, Mark and Andrew are policemen. Q: Who are not waiters? A: Mark and Andrew.
+C: Clark is a singer, Paul and Bob are engineers. Q: Who are not singers? A: Paul and Bob.
+C: Susan is a manager, Lola is a lawyer. Q: Who is not a manager? A: Lola.
+C: Joseph and Thomas are accountants, Christopher and Charles are architects. Q: Who are not accountants? A: Christopher and Charles.
+C: Robert is a teacher, Olivia and Emily are accountants. Q: Who are not teachers? A: Olivia and Emily.
+C: Paul and Bob are singers, Ross and Joey are policemen. Q: Who are not singers? A: Ross and Joey.
+C: Susan is a doctor, Mark and Andrew are cooks. Q: Who are not doctors? A: Mark and Andrew.
+C: Mary is a singer, Clark is a scientist. Q: Who is not a singer? A: Clark.
+C: James is an actor, Sophia and Charlotte are lawyers. Q: Who are not actors? A: Sophia and Charlotte.
+C: Lily is a lawyer, Ross and Joey are architects. Q: Who are not lawyers? A: Ross and Joey.
+C: Audrey is a singer, Alice and Harper are farmers. Q: Who are not singers? A: Alice and Harper.
+C: John is a doctor, Kirk is an accountant. Q: Who is not a doctor? A: Kirk.
+C: Mary is a waitress, Lola is a cook. Q: Who is not a waiter? A: Lola.
+C: Kirk is a writer, Joseph and Thomas are architects. Q: Who are not writers? A: Joseph and Thomas.
+C: Paul and Bob are doctors, Christopher and Charles are teachers. Q: Who are not doctors? A: Christopher and Charles.
+C: John is a teacher, Kirk is an actor. Q: Who is not a teacher? A: Kirk.
+C: John is an engineer, James is a cook. Q: Who is not an engineer? A: James.
+C: Robert is a singer, Joseph and Thomas are managers. Q: Who are not singers? A: Joseph and Thomas.
+C: Ross and Joey are teachers, Christopher and Charles are managers. Q: Who are not teachers? A: Christopher and Charles.
+C: Lily is a doctor, Sophia and Charlotte are waitresses. Q: Who are not doctors? A: Sophia and Charlotte.
+C: Mary is a writer, Joseph and Thomas are teachers. Q: Who are not writers? A: Joseph and Thomas.
+C: James is a writer, Ross and Joey are architects. Q: Who are not writers? A: Ross and Joey.
+C: John is a manager, Christopher and Charles are architects. Q: Who are not managers? A: Christopher and Charles.
+C: Susan is a singer, Olivia and Emily are teachers. Q: Who are not singers? A: Olivia and Emily.
+C: Sophia and Charlotte are accountants, Christopher and Charles are architects. Q: Who are not accountants? A: Christopher and Charles.
+C: Steve is an actor, Emma and Monica are cooks. Q: Who are not actors? A: Emma and Monica.
+C: Robert is an actor, Emma and Monica are lawyers. Q: Who are not actors? A: Emma and Monica.
+C: Alice and Harper are engineers, Ross and Joey are teachers. Q: Who are not engineers? A: Ross and Joey.
+C: Kirk is a teacher, James is a policeman. Q: Who is not a teacher? A: James.
+C: Robert is a teacher, Sophia and Charlotte are policewomen. Q: Who are not teachers? A: Sophia and Charlotte.
+C: Susan is a scientist, Audrey is an accountant. Q: Who is not a scientist? A: Audrey.
+C: Audrey is a policewoman, Mark and Andrew are lawyers. Q: Who are not policemen? A: Mark and Andrew.
+C: Mary is a singer, Lola is a doctor. Q: Who is not a singer? A: Lola.
+C: Steve is a singer, Mark and Andrew are architects. Q: Who are not singers? A: Mark and Andrew.
+C: Lily is a waitress, Mark and Andrew are policemen. Q: Who are not waiters? A: Mark and Andrew.
+C: Susan is a teacher, Sophia and Charlotte are managers. Q: Who are not teachers? A: Sophia and Charlotte.
+C: Audrey is a singer, Lily is a manager. Q: Who is not a singer? A: Lily.
+C: Mary is a writer, Audrey is a doctor. Q: Who is not a writer? A: Audrey.

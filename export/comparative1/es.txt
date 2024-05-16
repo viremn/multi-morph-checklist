@@ -1,315 +1,315 @@
-C: Dolores es más ruidosa que Adrián. Q: ¿Quién es más tranquilo? A: Adrián.
-C: Ángela es más rápida que Dolores. Q: ¿Quién es más lento? A: Dolores.
-C: Ángela es más feliz que Javier. Q: ¿Quién es más triste? A: Javier.
-C: Pablo es más rápido que Adrián. Q: ¿Quién es más lento? A: Adrián.
-C: Ángela es más grande que Miguel. Q: ¿Quién es más delgado? A: Miguel.
-C: Javier es más grande que Miguel. Q: ¿Quién es más delgado? A: Miguel.
-C: Juana es más ruidosa que Miguel. Q: ¿Quién es más tranquilo? A: Miguel.
-C: Pablo es más rico que Miguel. Q: ¿Quién es más pobre? A: Miguel.
-C: Pablo es más ruidoso que Miguel. Q: ¿Quién es más tranquilo? A: Miguel.
-C: Álvaro es más feliz que Javier. Q: ¿Quién es más triste? A: Javier.
-C: Juana es más ruidosa que Dolores. Q: ¿Quién es más tranquilo? A: Dolores.
-C: Ángela es mayor que Adrián. Q: ¿Quién es joven? A: Adrián.
-C: Juana es más grande que Álvaro. Q: ¿Quién es más delgado? A: Álvaro.
-C: Ángela es más rápida que Adrián. Q: ¿Quién es más lento? A: Adrián.
-C: Pablo es más rico que Javier. Q: ¿Quién es más pobre? A: Javier.
-C: María es más grande que Juana. Q: ¿Quién es más delgado? A: Juana.
-C: Juana es más rica que Adrián. Q: ¿Quién es más pobre? A: Adrián.
-C: María es más ruidosa que Juana. Q: ¿Quién es más tranquilo? A: Juana.
-C: Miguel es más grande que Adrián. Q: ¿Quién es más delgado? A: Adrián.
-C: Ángela es más grande que Javier. Q: ¿Quién es más delgado? A: Javier.
-C: Pablo es mayor que Álvaro. Q: ¿Quién es joven? A: Álvaro.
-C: Ángela es mayor que María Ángeles. Q: ¿Quién es joven? A: María Ángeles.
-C: Pablo es mayor que Miguel. Q: ¿Quién es joven? A: Miguel.
-C: María Ángeles es mayor que Álvaro. Q: ¿Quién es joven? A: Álvaro.
-C: Álvaro es más grande que Miguel. Q: ¿Quién es más delgado? A: Miguel.
-C: María es más grande que Miguel. Q: ¿Quién es más delgado? A: Miguel.
-C: Pablo es más grande que Javier. Q: ¿Quién es más delgado? A: Javier.
-C: Javier es más ruidoso que Miguel. Q: ¿Quién es más tranquilo? A: Miguel.
-C: María es más ruidosa que Álvaro. Q: ¿Quién es más tranquilo? A: Álvaro.
-C: Juana es más grande que Pablo. Q: ¿Quién es más delgado? A: Pablo.
-C: Álvaro es más feliz que Miguel. Q: ¿Quién es más triste? A: Miguel.
-C: Ángela es más ruidosa que Adrián. Q: ¿Quién es más tranquilo? A: Adrián.
-C: María es más grande que Adrián. Q: ¿Quién es más delgado? A: Adrián.
-C: María Ángeles es más feliz que Miguel. Q: ¿Quién es más triste? A: Miguel.
-C: Pablo es más feliz que Adrián. Q: ¿Quién es más triste? A: Adrián.
-C: Juana es más feliz que Ángela. Q: ¿Quién es más triste? A: Ángela.
-C: Ángela es más grande que María Ángeles. Q: ¿Quién es más delgado? A: María Ángeles.
-C: Dolores es más alta que María Ángeles. Q: ¿Quién es más pequeño? A: María Ángeles.
-C: María es más alta que Álvaro. Q: ¿Quién es más pequeño? A: Álvaro.
-C: Javier es más alto que Adrián. Q: ¿Quién es más pequeño? A: Adrián.
-C: María es más rápida que Adrián. Q: ¿Quién es más lento? A: Adrián.
-C: Pablo es mayor que Javier. Q: ¿Quién es joven? A: Javier.
-C: Ángela es más rica que Dolores. Q: ¿Quién es más pobre? A: Dolores.
-C: Álvaro es más alto que Adrián. Q: ¿Quién es más pequeño? A: Adrián.
-C: Ángela es más alta que Pablo. Q: ¿Quién es más pequeño? A: Pablo.
-C: Pablo es más alto que Javier. Q: ¿Quién es más pequeño? A: Javier.
-C: Pablo es más grande que Álvaro. Q: ¿Quién es más delgado? A: Álvaro.
-C: Juana es más alta que Álvaro. Q: ¿Quién es más pequeño? A: Álvaro.
-C: Álvaro es mayor que Adrián. Q: ¿Quién es joven? A: Adrián.
-C: Dolores es más rica que Álvaro. Q: ¿Quién es más pobre? A: Álvaro.
-C: María es más feliz que Miguel. Q: ¿Quién es más triste? A: Miguel.
-C: María es más rápida que Álvaro. Q: ¿Quién es más lento? A: Álvaro.
-C: Dolores es más ruidosa que María Ángeles. Q: ¿Quién es más tranquilo? A: María Ángeles.
-C: Dolores es más feliz que Miguel. Q: ¿Quién es más triste? A: Miguel.
-C: María es mayor que Pablo. Q: ¿Quién es joven? A: Pablo.
-C: María Ángeles es más feliz que Álvaro. Q: ¿Quién es más triste? A: Álvaro.
-C: Ángela es más ruidosa que Dolores. Q: ¿Quién es más tranquilo? A: Dolores.
-C: Dolores es más rápida que Adrián. Q: ¿Quién es más lento? A: Adrián.
-C: María Ángeles es más rápida que Miguel. Q: ¿Quién es más lento? A: Miguel.
-C: Juana es más rica que Javier. Q: ¿Quién es más pobre? A: Javier.
-C: Juana es más rica que Dolores. Q: ¿Quién es más pobre? A: Dolores.
-C: Dolores es más grande que Javier. Q: ¿Quién es más delgado? A: Javier.
-C: María es más ruidosa que Adrián. Q: ¿Quién es más tranquilo? A: Adrián.
-C: Dolores es mayor que Álvaro. Q: ¿Quién es joven? A: Álvaro.
-C: Pablo es más ruidoso que Álvaro. Q: ¿Quién es más tranquilo? A: Álvaro.
-C: Dolores es más ruidosa que Álvaro. Q: ¿Quién es más tranquilo? A: Álvaro.
-C: Miguel es más feliz que Adrián. Q: ¿Quién es más triste? A: Adrián.
-C: María es más alta que Adrián. Q: ¿Quién es más pequeño? A: Adrián.
-C: Juana es más alta que Javier. Q: ¿Quién es más pequeño? A: Javier.
-C: Miguel es más alto que Adrián. Q: ¿Quién es más pequeño? A: Adrián.
-C: María es más grande que Ángela. Q: ¿Quién es más delgado? A: Ángela.
-C: María es más ruidosa que Pablo. Q: ¿Quién es más tranquilo? A: Pablo.
-C: Javier es mayor que Adrián. Q: ¿Quién es joven? A: Adrián.
-C: Dolores es más ruidosa que Miguel. Q: ¿Quién es más tranquilo? A: Miguel.
-C: Juana es mayor que Ángela. Q: ¿Quién es joven? A: Ángela.
-C: Pablo es más ruidoso que Adrián. Q: ¿Quién es más tranquilo? A: Adrián.
-C: Álvaro es más ruidoso que Miguel. Q: ¿Quién es más tranquilo? A: Miguel.
-C: Dolores es más feliz que Adrián. Q: ¿Quién es más triste? A: Adrián.
-C: Dolores es más alta que Pablo. Q: ¿Quién es más pequeño? A: Pablo.
-C: Juana es más ruidosa que Álvaro. Q: ¿Quién es más tranquilo? A: Álvaro.
-C: Juana es más rápida que María Ángeles. Q: ¿Quién es más lento? A: María Ángeles.
-C: Juana es más feliz que María Ángeles. Q: ¿Quién es más triste? A: María Ángeles.
-C: Ángela es más ruidosa que Javier. Q: ¿Quién es más tranquilo? A: Javier.
-C: Juana es más ruidosa que Adrián. Q: ¿Quién es más tranquilo? A: Adrián.
-C: Juana es más grande que María Ángeles. Q: ¿Quién es más delgado? A: María Ángeles.
-C: Dolores es más alta que Adrián. Q: ¿Quién es más pequeño? A: Adrián.
-C: Dolores es mayor que María Ángeles. Q: ¿Quién es joven? A: María Ángeles.
-C: Ángela es más grande que Dolores. Q: ¿Quién es más delgado? A: Dolores.
-C: Miguel es mayor que Adrián. Q: ¿Quién es joven? A: Adrián.
-C: María Ángeles es más alta que Adrián. Q: ¿Quién es más pequeño? A: Adrián.
-C: Juana es más feliz que Pablo. Q: ¿Quién es más triste? A: Pablo.
-C: María es mayor que Dolores. Q: ¿Quién es joven? A: Dolores.
-C: Dolores es más rica que Pablo. Q: ¿Quién es más pobre? A: Pablo.
-C: María Ángeles es más rápida que Adrián. Q: ¿Quién es más lento? A: Adrián.
-C: Juana es más alta que Adrián. Q: ¿Quién es más pequeño? A: Adrián.
-C: Álvaro es más rápido que Miguel. Q: ¿Quién es más lento? A: Miguel.
-C: Ángela es más rica que Adrián. Q: ¿Quién es más pobre? A: Adrián.
-C: María es más ruidosa que María Ángeles. Q: ¿Quién es más tranquilo? A: María Ángeles.
-C: Ángela es más rápida que Álvaro. Q: ¿Quién es más lento? A: Álvaro.
-C: Dolores es más grande que Adrián. Q: ¿Quién es más delgado? A: Adrián.
-C: María Ángeles es más ruidosa que Pablo. Q: ¿Quién es más tranquilo? A: Pablo.
-C: Dolores es más rica que María Ángeles. Q: ¿Quién es más pobre? A: María Ángeles.
-C: Juana es más rica que Ángela. Q: ¿Quién es más pobre? A: Ángela.
-C: Juana es más alta que María Ángeles. Q: ¿Quién es más pequeño? A: María Ángeles.
-C: Ángela es más alta que Javier. Q: ¿Quién es más pequeño? A: Javier.
-C: Pablo es más feliz que Miguel. Q: ¿Quién es más triste? A: Miguel.
-C: Juana es más rápida que Javier. Q: ¿Quién es más lento? A: Javier.
-C: María es más rica que Javier. Q: ¿Quién es más pobre? A: Javier.
-C: María es más rápida que Pablo. Q: ¿Quién es más lento? A: Pablo.
-C: Dolores es más ruidosa que Pablo. Q: ¿Quién es más tranquilo? A: Pablo.
-C: María es más grande que Álvaro. Q: ¿Quién es más delgado? A: Álvaro.
-C: Ángela es mayor que Miguel. Q: ¿Quién es joven? A: Miguel.
-C: Pablo es más grande que Miguel. Q: ¿Quién es más delgado? A: Miguel.
-C: Javier es más feliz que Adrián. Q: ¿Quién es más triste? A: Adrián.
-C: María Ángeles es más rápida que Pablo. Q: ¿Quién es más lento? A: Pablo.
-C: Juana es más alta que Ángela. Q: ¿Quién es más pequeño? A: Ángela.
-C: Juana es más ruidosa que Pablo. Q: ¿Quién es más tranquilo? A: Pablo.
-C: Ángela es más feliz que Pablo. Q: ¿Quién es más triste? A: Pablo.
-C: Javier es mayor que Miguel. Q: ¿Quién es joven? A: Miguel.
-C: Álvaro es más rico que Miguel. Q: ¿Quién es más pobre? A: Miguel.
-C: Juana es mayor que Adrián. Q: ¿Quién es joven? A: Adrián.
-C: María Ángeles es más feliz que Pablo. Q: ¿Quién es más triste? A: Pablo.
-C: Juana es más feliz que Miguel. Q: ¿Quién es más triste? A: Miguel.
-C: Juana es mayor que Dolores. Q: ¿Quién es joven? A: Dolores.
-C: María es más grande que Dolores. Q: ¿Quién es más delgado? A: Dolores.
-C: Juana es más rica que Álvaro. Q: ¿Quién es más pobre? A: Álvaro.
-C: María es más alta que Ángela. Q: ¿Quién es más pequeño? A: Ángela.
-C: Dolores es mayor que Pablo. Q: ¿Quién es joven? A: Pablo.
-C: María Ángeles es más ruidosa que Javier. Q: ¿Quién es más tranquilo? A: Javier.
-C: Dolores es más rápida que Miguel. Q: ¿Quién es más lento? A: Miguel.
-C: Ángela es mayor que Dolores. Q: ¿Quién es joven? A: Dolores.
-C: María Ángeles es mayor que Adrián. Q: ¿Quién es joven? A: Adrián.
-C: Ángela es más rica que Álvaro. Q: ¿Quién es más pobre? A: Álvaro.
-C: Álvaro es mayor que Miguel. Q: ¿Quién es joven? A: Miguel.
-C: Juana es más rica que María Ángeles. Q: ¿Quién es más pobre? A: María Ángeles.
-C: María Ángeles es más grande que Álvaro. Q: ¿Quién es más delgado? A: Álvaro.
-C: Ángela es mayor que Álvaro. Q: ¿Quién es joven? A: Álvaro.
-C: Javier es más rico que Adrián. Q: ¿Quién es más pobre? A: Adrián.
-C: Dolores es más grande que María Ángeles. Q: ¿Quién es más delgado? A: María Ángeles.
-C: Ángela es más feliz que Adrián. Q: ¿Quién es más triste? A: Adrián.
-C: Juana es más rica que Miguel. Q: ¿Quién es más pobre? A: Miguel.
-C: Ángela es más ruidosa que Pablo. Q: ¿Quién es más tranquilo? A: Pablo.
-C: Ángela es mayor que Javier. Q: ¿Quién es joven? A: Javier.
-C: María es más feliz que Adrián. Q: ¿Quién es más triste? A: Adrián.
-C: Pablo es más alto que Adrián. Q: ¿Quién es más pequeño? A: Adrián.
-C: Dolores es más rica que Adrián. Q: ¿Quién es más pobre? A: Adrián.
-C: Pablo es más ruidoso que Javier. Q: ¿Quién es más tranquilo? A: Javier.
-C: Dolores es más feliz que Pablo. Q: ¿Quién es más triste? A: Pablo.
-C: Ángela es mayor que Pablo. Q: ¿Quién es joven? A: Pablo.
-C: Dolores es más feliz que Álvaro. Q: ¿Quién es más triste? A: Álvaro.
-C: María es más feliz que Pablo. Q: ¿Quién es más triste? A: Pablo.
-C: María es más alta que Javier. Q: ¿Quién es más pequeño? A: Javier.
-C: Dolores es más rápida que Álvaro. Q: ¿Quién es más lento? A: Álvaro.
-C: Miguel es más rápido que Adrián. Q: ¿Quién es más lento? A: Adrián.
-C: Juana es mayor que Pablo. Q: ¿Quién es joven? A: Pablo.
-C: Álvaro es más alto que Javier. Q: ¿Quién es más pequeño? A: Javier.
-C: Álvaro es más grande que Adrián. Q: ¿Quién es más delgado? A: Adrián.
-C: Juana es más alta que Dolores. Q: ¿Quién es más pequeño? A: Dolores.
-C: Dolores es más rica que Miguel. Q: ¿Quién es más pobre? A: Miguel.
-C: Dolores es más rica que Javier. Q: ¿Quién es más pobre? A: Javier.
-C: Juana es más ruidosa que María Ángeles. Q: ¿Quién es más tranquilo? A: María Ángeles.
-C: Ángela es más grande que Álvaro. Q: ¿Quién es más delgado? A: Álvaro.
-C: María es más rica que Álvaro. Q: ¿Quién es más pobre? A: Álvaro.
-C: Dolores es más feliz que María Ángeles. Q: ¿Quién es más triste? A: María Ángeles.
-C: María es más rica que Pablo. Q: ¿Quién es más pobre? A: Pablo.
-C: Ángela es más alta que María Ángeles. Q: ¿Quién es más pequeño? A: María Ángeles.
-C: María es más rápida que María Ángeles. Q: ¿Quién es más lento? A: María Ángeles.
-C: María Ángeles es más alta que Miguel. Q: ¿Quién es más pequeño? A: Miguel.
-C: María es más rápida que Dolores. Q: ¿Quién es más lento? A: Dolores.
-C: María Ángeles es más grande que Javier. Q: ¿Quién es más delgado? A: Javier.
-C: María Ángeles es más rica que Álvaro. Q: ¿Quién es más pobre? A: Álvaro.
-C: Juana es más rápida que Miguel. Q: ¿Quién es más lento? A: Miguel.
-C: María Ángeles es más rica que Pablo. Q: ¿Quién es más pobre? A: Pablo.
-C: María es más feliz que Álvaro. Q: ¿Quién es más triste? A: Álvaro.
 C: María es más rica que María Ángeles. Q: ¿Quién es más pobre? A: María Ángeles.
-C: Juana es más feliz que Dolores. Q: ¿Quién es más triste? A: Dolores.
-C: Dolores es más feliz que Javier. Q: ¿Quién es más triste? A: Javier.
-C: María es mayor que Ángela. Q: ¿Quién es joven? A: Ángela.
-C: Pablo es más feliz que Álvaro. Q: ¿Quién es más triste? A: Álvaro.
-C: Javier es más grande que Adrián. Q: ¿Quién es más delgado? A: Adrián.
-C: Ángela es más rápida que Javier. Q: ¿Quién es más lento? A: Javier.
-C: Juana es más rápida que Dolores. Q: ¿Quién es más lento? A: Dolores.
-C: María es más rápida que Miguel. Q: ¿Quién es más lento? A: Miguel.
-C: Pablo es más grande que Adrián. Q: ¿Quién es más delgado? A: Adrián.
-C: Ángela es más feliz que Álvaro. Q: ¿Quién es más triste? A: Álvaro.
-C: Juana es más grande que Ángela. Q: ¿Quién es más delgado? A: Ángela.
-C: Javier es más rápido que Miguel. Q: ¿Quién es más lento? A: Miguel.
-C: Álvaro es más rico que Javier. Q: ¿Quién es más pobre? A: Javier.
-C: María Ángeles es mayor que Javier. Q: ¿Quién es joven? A: Javier.
-C: María es mayor que Adrián. Q: ¿Quién es joven? A: Adrián.
-C: María es más grande que Pablo. Q: ¿Quién es más delgado? A: Pablo.
-C: Dolores es más alta que Álvaro. Q: ¿Quién es más pequeño? A: Álvaro.
-C: Juana es más alta que Pablo. Q: ¿Quién es más pequeño? A: Pablo.
-C: Juana es mayor que Álvaro. Q: ¿Quién es joven? A: Álvaro.
-C: María es más alta que Juana. Q: ¿Quién es más pequeño? A: Juana.
-C: María Ángeles es más grande que Miguel. Q: ¿Quién es más delgado? A: Miguel.
-C: María es más rápida que Javier. Q: ¿Quién es más lento? A: Javier.
-C: María es más grande que María Ángeles. Q: ¿Quién es más delgado? A: María Ángeles.
-C: Juana es más grande que Miguel. Q: ¿Quién es más delgado? A: Miguel.
-C: María es más alta que María Ángeles. Q: ¿Quién es más pequeño? A: María Ángeles.
-C: Pablo es más alto que Miguel. Q: ¿Quién es más pequeño? A: Miguel.
-C: Javier es más rico que Miguel. Q: ¿Quién es más pobre? A: Miguel.
-C: Juana es más alta que Miguel. Q: ¿Quién es más pequeño? A: Miguel.
-C: Dolores es más rápida que Pablo. Q: ¿Quién es más lento? A: Pablo.
-C: Pablo es más rápido que Javier. Q: ¿Quién es más lento? A: Javier.
-C: Ángela es más alta que Dolores. Q: ¿Quién es más pequeño? A: Dolores.
-C: Dolores es más alta que Javier. Q: ¿Quién es más pequeño? A: Javier.
-C: María es más alta que Pablo. Q: ¿Quién es más pequeño? A: Pablo.
-C: Pablo es más rápido que Miguel. Q: ¿Quién es más lento? A: Miguel.
-C: María Ángeles es más feliz que Adrián. Q: ¿Quién es más triste? A: Adrián.
-C: Juana es más rápida que Adrián. Q: ¿Quién es más lento? A: Adrián.
-C: María Ángeles es más alta que Pablo. Q: ¿Quién es más pequeño? A: Pablo.
-C: María Ángeles es más rica que Javier. Q: ¿Quién es más pobre? A: Javier.
-C: María Ángeles es más rápida que Javier. Q: ¿Quién es más lento? A: Javier.
-C: María es más rica que Juana. Q: ¿Quién es más pobre? A: Juana.
-C: María es más rica que Adrián. Q: ¿Quién es más pobre? A: Adrián.
-C: María es más rica que Dolores. Q: ¿Quién es más pobre? A: Dolores.
-C: Álvaro es más grande que Javier. Q: ¿Quién es más delgado? A: Javier.
-C: María Ángeles es más feliz que Javier. Q: ¿Quién es más triste? A: Javier.
-C: María es más feliz que Javier. Q: ¿Quién es más triste? A: Javier.
-C: María Ángeles es mayor que Pablo. Q: ¿Quién es joven? A: Pablo.
-C: Juana es más feliz que Álvaro. Q: ¿Quién es más triste? A: Álvaro.
-C: Juana es mayor que María Ángeles. Q: ¿Quién es joven? A: María Ángeles.
-C: Juana es más grande que Javier. Q: ¿Quién es más delgado? A: Javier.
-C: Ángela es más rica que Pablo. Q: ¿Quién es más pobre? A: Pablo.
-C: María Ángeles es más ruidosa que Álvaro. Q: ¿Quién es más tranquilo? A: Álvaro.
-C: María es más rápida que Juana. Q: ¿Quién es más lento? A: Juana.
-C: Álvaro es más rápido que Javier. Q: ¿Quién es más lento? A: Javier.
-C: Ángela es más rica que María Ángeles. Q: ¿Quién es más pobre? A: María Ángeles.
-C: Álvaro es más alto que Miguel. Q: ¿Quién es más pequeño? A: Miguel.
-C: María Ángeles es más rápida que Álvaro. Q: ¿Quién es más lento? A: Álvaro.
-C: Álvaro es más ruidoso que Adrián. Q: ¿Quién es más tranquilo? A: Adrián.
-C: Ángela es más alta que Álvaro. Q: ¿Quién es más pequeño? A: Álvaro.
-C: Javier es más feliz que Miguel. Q: ¿Quién es más triste? A: Miguel.
-C: María es mayor que Javier. Q: ¿Quién es joven? A: Javier.
-C: Juana es más grande que Dolores. Q: ¿Quién es más delgado? A: Dolores.
-C: María Ángeles es más rica que Adrián. Q: ¿Quién es más pobre? A: Adrián.
-C: María es mayor que Miguel. Q: ¿Quién es joven? A: Miguel.
-C: Miguel es más ruidoso que Adrián. Q: ¿Quién es más tranquilo? A: Adrián.
-C: Dolores es más grande que Miguel. Q: ¿Quién es más delgado? A: Miguel.
-C: Pablo es más rápido que Álvaro. Q: ¿Quién es más lento? A: Álvaro.
-C: Álvaro es más ruidoso que Javier. Q: ¿Quién es más tranquilo? A: Javier.
-C: Juana es más rápida que Ángela. Q: ¿Quién es más lento? A: Ángela.
-C: María es más alta que Dolores. Q: ¿Quién es más pequeño? A: Dolores.
-C: María es más grande que Javier. Q: ¿Quién es más delgado? A: Javier.
-C: María es más ruidosa que Dolores. Q: ¿Quién es más tranquilo? A: Dolores.
-C: María Ángeles es más grande que Adrián. Q: ¿Quién es más delgado? A: Adrián.
-C: María es más rápida que Ángela. Q: ¿Quién es más lento? A: Ángela.
-C: Ángela es más ruidosa que Álvaro. Q: ¿Quién es más tranquilo? A: Álvaro.
-C: Ángela es más alta que Miguel. Q: ¿Quién es más pequeño? A: Miguel.
-C: Juana es más grande que Adrián. Q: ¿Quién es más delgado? A: Adrián.
-C: Álvaro es más rápido que Adrián. Q: ¿Quién es más lento? A: Adrián.
-C: María es más feliz que Ángela. Q: ¿Quién es más triste? A: Ángela.
-C: María es más feliz que María Ángeles. Q: ¿Quién es más triste? A: María Ángeles.
-C: Pablo es más rico que Adrián. Q: ¿Quién es más pobre? A: Adrián.
-C: Dolores es mayor que Adrián. Q: ¿Quién es joven? A: Adrián.
-C: Dolores es más ruidosa que Javier. Q: ¿Quién es más tranquilo? A: Javier.
-C: María Ángeles es más grande que Pablo. Q: ¿Quién es más delgado? A: Pablo.
-C: Juana es más feliz que Adrián. Q: ¿Quién es más triste? A: Adrián.
-C: María Ángeles es más rica que Miguel. Q: ¿Quién es más pobre? A: Miguel.
-C: Dolores es mayor que Javier. Q: ¿Quién es joven? A: Javier.
-C: Juana es más ruidosa que Javier. Q: ¿Quién es más tranquilo? A: Javier.
-C: María es más ruidosa que Javier. Q: ¿Quién es más tranquilo? A: Javier.
-C: María es más ruidosa que Ángela. Q: ¿Quién es más tranquilo? A: Ángela.
-C: Juana es mayor que Miguel. Q: ¿Quién es joven? A: Miguel.
-C: Ángela es más ruidosa que María Ángeles. Q: ¿Quién es más tranquilo? A: María Ángeles.
-C: Ángela es más feliz que Miguel. Q: ¿Quién es más triste? A: Miguel.
 C: Dolores es mayor que Miguel. Q: ¿Quién es joven? A: Miguel.
-C: Javier es más alto que Miguel. Q: ¿Quién es más pequeño? A: Miguel.
-C: María es mayor que María Ángeles. Q: ¿Quién es joven? A: María Ángeles.
-C: Ángela es más grande que Pablo. Q: ¿Quién es más delgado? A: Pablo.
-C: Juana es mayor que Javier. Q: ¿Quién es joven? A: Javier.
-C: María es más ruidosa que Miguel. Q: ¿Quién es más tranquilo? A: Miguel.
-C: Álvaro es más rico que Adrián. Q: ¿Quién es más pobre? A: Adrián.
-C: María Ángeles es más ruidosa que Miguel. Q: ¿Quién es más tranquilo? A: Miguel.
-C: Dolores es más alta que Miguel. Q: ¿Quién es más pequeño? A: Miguel.
-C: Ángela es más grande que Adrián. Q: ¿Quién es más delgado? A: Adrián.
-C: Dolores es más rápida que Javier. Q: ¿Quién es más lento? A: Javier.
-C: María es mayor que Álvaro. Q: ¿Quién es joven? A: Álvaro.
-C: Álvaro es mayor que Javier. Q: ¿Quién es joven? A: Javier.
-C: Ángela es más alta que Adrián. Q: ¿Quién es más pequeño? A: Adrián.
-C: María es más feliz que Juana. Q: ¿Quién es más triste? A: Juana.
-C: Ángela es más rápida que Pablo. Q: ¿Quién es más lento? A: Pablo.
-C: María Ángeles es mayor que Miguel. Q: ¿Quién es joven? A: Miguel.
-C: María es más feliz que Dolores. Q: ¿Quién es más triste? A: Dolores.
-C: Ángela es más feliz que Dolores. Q: ¿Quién es más triste? A: Dolores.
-C: Juana es más ruidosa que Ángela. Q: ¿Quién es más tranquilo? A: Ángela.
-C: Ángela es más feliz que María Ángeles. Q: ¿Quién es más triste? A: María Ángeles.
-C: Juana es más rápida que Álvaro. Q: ¿Quién es más lento? A: Álvaro.
-C: Miguel es más rico que Adrián. Q: ¿Quién es más pobre? A: Adrián.
-C: Ángela es más rápida que Miguel. Q: ¿Quién es más lento? A: Miguel.
-C: María es más rica que Ángela. Q: ¿Quién es más pobre? A: Ángela.
-C: Pablo es mayor que Adrián. Q: ¿Quién es joven? A: Adrián.
-C: Juana es más feliz que Javier. Q: ¿Quién es más triste? A: Javier.
-C: María Ángeles es más alta que Javier. Q: ¿Quién es más pequeño? A: Javier.
-C: Pablo es más feliz que Javier. Q: ¿Quién es más triste? A: Javier.
-C: Ángela es más rápida que María Ángeles. Q: ¿Quién es más lento? A: María Ángeles.
-C: Pablo es más alto que Álvaro. Q: ¿Quién es más pequeño? A: Álvaro.
-C: María Ángeles es más alta que Álvaro. Q: ¿Quién es más pequeño? A: Álvaro.
-C: Juana es más rica que Pablo. Q: ¿Quién es más pobre? A: Pablo.
-C: Javier es más rápido que Adrián. Q: ¿Quién es más lento? A: Adrián.
-C: María es más alta que Miguel. Q: ¿Quién es más pequeño? A: Miguel.
-C: Dolores es más rápida que María Ángeles. Q: ¿Quién es más lento? A: María Ángeles.
-C: Ángela es más ruidosa que Miguel. Q: ¿Quién es más tranquilo? A: Miguel.
-C: Juana es más rápida que Pablo. Q: ¿Quién es más lento? A: Pablo.
-C: Pablo es más rico que Álvaro. Q: ¿Quién es más pobre? A: Álvaro.
-C: Ángela es más rica que Miguel. Q: ¿Quién es más pobre? A: Miguel.
-C: María es más rica que Miguel. Q: ¿Quién es más pobre? A: Miguel.
-C: Dolores es más grande que Pablo. Q: ¿Quién es más delgado? A: Pablo.
-C: Álvaro es más feliz que Adrián. Q: ¿Quién es más triste? A: Adrián.
+C: María Ángeles es más grande que Adrián. Q: ¿Quién es más delgado? A: Adrián.
+C: Juana es más rápida que Javier. Q: ¿Quién es más lento? A: Javier.
+C: María es más rápida que Javier. Q: ¿Quién es más lento? A: Javier.
+C: María es más rápida que Pablo. Q: ¿Quién es más lento? A: Pablo.
+C: María Ángeles es más feliz que Miguel. Q: ¿Quién es más triste? A: Miguel.
+C: Pablo es mayor que Miguel. Q: ¿Quién es joven? A: Miguel.
+C: Álvaro es más rico que Javier. Q: ¿Quién es más pobre? A: Javier.
+C: Pablo es más grande que Javier. Q: ¿Quién es más delgado? A: Javier.
+C: Miguel es más ruidoso que Adrián. Q: ¿Quién es más tranquilo? A: Adrián.
 C: María Ángeles es más ruidosa que Adrián. Q: ¿Quién es más tranquilo? A: Adrián.
-C: Dolores es más grande que Álvaro. Q: ¿Quién es más delgado? A: Álvaro.
-C: María es mayor que Juana. Q: ¿Quién es joven? A: Juana.
-C: Ángela es más rica que Javier. Q: ¿Quién es más pobre? A: Javier.
+C: Juana es más feliz que Dolores. Q: ¿Quién es más triste? A: Dolores.
+C: Juana es más rápida que Adrián. Q: ¿Quién es más lento? A: Adrián.
+C: Ángela es más ruidosa que Adrián. Q: ¿Quién es más tranquilo? A: Adrián.
+C: Ángela es más ruidosa que Álvaro. Q: ¿Quién es más tranquilo? A: Álvaro.
+C: Ángela es mayor que María Ángeles. Q: ¿Quién es joven? A: María Ángeles.
+C: Álvaro es mayor que Javier. Q: ¿Quién es joven? A: Javier.
+C: Pablo es más rico que Álvaro. Q: ¿Quién es más pobre? A: Álvaro.
+C: Ángela es más ruidosa que Miguel. Q: ¿Quién es más tranquilo? A: Miguel.
+C: Dolores es más alta que Álvaro. Q: ¿Quién es más pequeño? A: Álvaro.
+C: Juana es más feliz que María Ángeles. Q: ¿Quién es más triste? A: María Ángeles.
+C: Miguel es más grande que Adrián. Q: ¿Quién es más delgado? A: Adrián.
+C: Juana es más rica que Miguel. Q: ¿Quién es más pobre? A: Miguel.
+C: María Ángeles es más feliz que Javier. Q: ¿Quién es más triste? A: Javier.
+C: Pablo es más feliz que Miguel. Q: ¿Quién es más triste? A: Miguel.
+C: María es más ruidosa que Javier. Q: ¿Quién es más tranquilo? A: Javier.
+C: Álvaro es más grande que Adrián. Q: ¿Quién es más delgado? A: Adrián.
+C: Dolores es mayor que Javier. Q: ¿Quién es joven? A: Javier.
+C: Ángela es mayor que Javier. Q: ¿Quién es joven? A: Javier.
+C: Ángela es más alta que Dolores. Q: ¿Quién es más pequeño? A: Dolores.
+C: Dolores es más ruidosa que Pablo. Q: ¿Quién es más tranquilo? A: Pablo.
+C: Álvaro es más rápido que Javier. Q: ¿Quién es más lento? A: Javier.
+C: Juana es más alta que Miguel. Q: ¿Quién es más pequeño? A: Miguel.
+C: María es más rápida que Adrián. Q: ¿Quién es más lento? A: Adrián.
+C: María es más rápida que Juana. Q: ¿Quién es más lento? A: Juana.
+C: Juana es más rápida que Miguel. Q: ¿Quién es más lento? A: Miguel.
+C: Juana es más rica que Dolores. Q: ¿Quién es más pobre? A: Dolores.
+C: María es más ruidosa que María Ángeles. Q: ¿Quién es más tranquilo? A: María Ángeles.
+C: María es más rápida que Miguel. Q: ¿Quién es más lento? A: Miguel.
+C: Dolores es más grande que Miguel. Q: ¿Quién es más delgado? A: Miguel.
+C: Dolores es más feliz que Adrián. Q: ¿Quién es más triste? A: Adrián.
+C: María Ángeles es más alta que Pablo. Q: ¿Quién es más pequeño? A: Pablo.
+C: Juana es más rápida que Ángela. Q: ¿Quién es más lento? A: Ángela.
+C: Dolores es más rápida que Miguel. Q: ¿Quién es más lento? A: Miguel.
+C: Pablo es más ruidoso que Miguel. Q: ¿Quién es más tranquilo? A: Miguel.
+C: Ángela es más grande que Miguel. Q: ¿Quién es más delgado? A: Miguel.
+C: María Ángeles es más grande que Javier. Q: ¿Quién es más delgado? A: Javier.
+C: María Ángeles es más ruidosa que Álvaro. Q: ¿Quién es más tranquilo? A: Álvaro.
+C: Ángela es mayor que Dolores. Q: ¿Quién es joven? A: Dolores.
+C: María es más alta que Álvaro. Q: ¿Quién es más pequeño? A: Álvaro.
+C: María es más alta que Adrián. Q: ¿Quién es más pequeño? A: Adrián.
+C: Juana es más grande que Dolores. Q: ¿Quién es más delgado? A: Dolores.
+C: Dolores es más alta que Pablo. Q: ¿Quién es más pequeño? A: Pablo.
+C: Juana es más ruidosa que Ángela. Q: ¿Quién es más tranquilo? A: Ángela.
+C: María Ángeles es más rica que Adrián. Q: ¿Quién es más pobre? A: Adrián.
+C: Javier es más rápido que Adrián. Q: ¿Quién es más lento? A: Adrián.
+C: María Ángeles es más ruidosa que Miguel. Q: ¿Quién es más tranquilo? A: Miguel.
+C: Pablo es más ruidoso que Javier. Q: ¿Quién es más tranquilo? A: Javier.
+C: Javier es más rico que Miguel. Q: ¿Quién es más pobre? A: Miguel.
+C: Dolores es más grande que Adrián. Q: ¿Quién es más delgado? A: Adrián.
+C: Juana es más rica que Ángela. Q: ¿Quién es más pobre? A: Ángela.
+C: Juana es más grande que Pablo. Q: ¿Quién es más delgado? A: Pablo.
+C: María es más grande que Pablo. Q: ¿Quién es más delgado? A: Pablo.
+C: María es más feliz que Pablo. Q: ¿Quién es más triste? A: Pablo.
+C: María es más rica que Pablo. Q: ¿Quién es más pobre? A: Pablo.
+C: Dolores es más rica que Adrián. Q: ¿Quién es más pobre? A: Adrián.
+C: Ángela es más grande que María Ángeles. Q: ¿Quién es más delgado? A: María Ángeles.
+C: María Ángeles es más feliz que Adrián. Q: ¿Quién es más triste? A: Adrián.
+C: Pablo es más alto que Álvaro. Q: ¿Quién es más pequeño? A: Álvaro.
 C: Javier es más ruidoso que Adrián. Q: ¿Quién es más tranquilo? A: Adrián.
+C: Dolores es más ruidosa que Javier. Q: ¿Quién es más tranquilo? A: Javier.
+C: María Ángeles es más alta que Miguel. Q: ¿Quién es más pequeño? A: Miguel.
+C: Pablo es más feliz que Álvaro. Q: ¿Quién es más triste? A: Álvaro.
+C: Ángela es más feliz que Pablo. Q: ¿Quién es más triste? A: Pablo.
+C: Pablo es mayor que Álvaro. Q: ¿Quién es joven? A: Álvaro.
+C: María Ángeles es más rápida que Miguel. Q: ¿Quién es más lento? A: Miguel.
+C: Javier es más grande que Miguel. Q: ¿Quién es más delgado? A: Miguel.
+C: María es mayor que Adrián. Q: ¿Quién es joven? A: Adrián.
+C: María es más rápida que Ángela. Q: ¿Quién es más lento? A: Ángela.
+C: Ángela es más feliz que Adrián. Q: ¿Quién es más triste? A: Adrián.
+C: María es más alta que Javier. Q: ¿Quién es más pequeño? A: Javier.
+C: Ángela es más rica que Dolores. Q: ¿Quién es más pobre? A: Dolores.
+C: María Ángeles es mayor que Pablo. Q: ¿Quién es joven? A: Pablo.
+C: Dolores es más rica que Álvaro. Q: ¿Quién es más pobre? A: Álvaro.
+C: Juana es más alta que Ángela. Q: ¿Quién es más pequeño? A: Ángela.
+C: Juana es mayor que Dolores. Q: ¿Quién es joven? A: Dolores.
+C: Juana es más feliz que Pablo. Q: ¿Quién es más triste? A: Pablo.
+C: Álvaro es mayor que Adrián. Q: ¿Quién es joven? A: Adrián.
+C: Juana es más rápida que María Ángeles. Q: ¿Quién es más lento? A: María Ángeles.
+C: Dolores es más feliz que Javier. Q: ¿Quién es más triste? A: Javier.
+C: Javier es más rápido que Miguel. Q: ¿Quién es más lento? A: Miguel.
+C: María es más grande que Adrián. Q: ¿Quién es más delgado? A: Adrián.
+C: María Ángeles es más alta que Álvaro. Q: ¿Quién es más pequeño? A: Álvaro.
+C: María es más feliz que Juana. Q: ¿Quién es más triste? A: Juana.
+C: Juana es mayor que Pablo. Q: ¿Quién es joven? A: Pablo.
+C: Ángela es mayor que Miguel. Q: ¿Quién es joven? A: Miguel.
+C: María Ángeles es más grande que Pablo. Q: ¿Quién es más delgado? A: Pablo.
+C: María es más ruidosa que Juana. Q: ¿Quién es más tranquilo? A: Juana.
+C: Juana es más rica que Javier. Q: ¿Quién es más pobre? A: Javier.
+C: Ángela es mayor que Adrián. Q: ¿Quién es joven? A: Adrián.
+C: Juana es más alta que Adrián. Q: ¿Quién es más pequeño? A: Adrián.
+C: María es más ruidosa que Dolores. Q: ¿Quién es más tranquilo? A: Dolores.
+C: Pablo es más feliz que Adrián. Q: ¿Quién es más triste? A: Adrián.
+C: Javier es mayor que Miguel. Q: ¿Quién es joven? A: Miguel.
+C: María es más feliz que Dolores. Q: ¿Quién es más triste? A: Dolores.
+C: Ángela es más rica que Adrián. Q: ¿Quién es más pobre? A: Adrián.
+C: María es más rica que Javier. Q: ¿Quién es más pobre? A: Javier.
+C: Juana es más ruidosa que Álvaro. Q: ¿Quién es más tranquilo? A: Álvaro.
+C: Juana es más ruidosa que Javier. Q: ¿Quién es más tranquilo? A: Javier.
+C: Dolores es mayor que Adrián. Q: ¿Quién es joven? A: Adrián.
+C: María es más grande que Javier. Q: ¿Quién es más delgado? A: Javier.
+C: Juana es más grande que Miguel. Q: ¿Quién es más delgado? A: Miguel.
+C: María Ángeles es mayor que Miguel. Q: ¿Quién es joven? A: Miguel.
+C: Juana es más grande que Javier. Q: ¿Quién es más delgado? A: Javier.
+C: Ángela es más ruidosa que Dolores. Q: ¿Quién es más tranquilo? A: Dolores.
+C: Ángela es más grande que Dolores. Q: ¿Quién es más delgado? A: Dolores.
+C: Ángela es más rápida que Miguel. Q: ¿Quién es más lento? A: Miguel.
+C: María es más rica que Adrián. Q: ¿Quién es más pobre? A: Adrián.
+C: María es más alta que Juana. Q: ¿Quién es más pequeño? A: Juana.
+C: Juana es más rápida que Pablo. Q: ¿Quién es más lento? A: Pablo.
+C: Álvaro es más ruidoso que Miguel. Q: ¿Quién es más tranquilo? A: Miguel.
+C: Miguel es más rico que Adrián. Q: ¿Quién es más pobre? A: Adrián.
+C: Javier es más rico que Adrián. Q: ¿Quién es más pobre? A: Adrián.
+C: Pablo es más alto que Javier. Q: ¿Quién es más pequeño? A: Javier.
+C: Ángela es más rica que María Ángeles. Q: ¿Quién es más pobre? A: María Ángeles.
+C: María Ángeles es más grande que Miguel. Q: ¿Quién es más delgado? A: Miguel.
+C: Juana es más feliz que Javier. Q: ¿Quién es más triste? A: Javier.
+C: Dolores es más alta que Miguel. Q: ¿Quién es más pequeño? A: Miguel.
+C: María es más rica que Miguel. Q: ¿Quién es más pobre? A: Miguel.
+C: María es más grande que Álvaro. Q: ¿Quién es más delgado? A: Álvaro.
+C: Dolores es más rápida que María Ángeles. Q: ¿Quién es más lento? A: María Ángeles.
+C: María es más grande que Miguel. Q: ¿Quién es más delgado? A: Miguel.
+C: Juana es más feliz que Miguel. Q: ¿Quién es más triste? A: Miguel.
+C: Dolores es más rápida que Javier. Q: ¿Quién es más lento? A: Javier.
+C: María es más feliz que Adrián. Q: ¿Quién es más triste? A: Adrián.
+C: Ángela es más feliz que Álvaro. Q: ¿Quién es más triste? A: Álvaro.
+C: Pablo es más rápido que Álvaro. Q: ¿Quién es más lento? A: Álvaro.
+C: Juana es más ruidosa que Dolores. Q: ¿Quién es más tranquilo? A: Dolores.
+C: Ángela es más grande que Pablo. Q: ¿Quién es más delgado? A: Pablo.
+C: Pablo es más ruidoso que Álvaro. Q: ¿Quién es más tranquilo? A: Álvaro.
+C: Juana es más alta que Álvaro. Q: ¿Quién es más pequeño? A: Álvaro.
+C: Dolores es más grande que Pablo. Q: ¿Quién es más delgado? A: Pablo.
+C: Ángela es más feliz que Javier. Q: ¿Quién es más triste? A: Javier.
+C: Ángela es más feliz que María Ángeles. Q: ¿Quién es más triste? A: María Ángeles.
+C: Pablo es más grande que Adrián. Q: ¿Quién es más delgado? A: Adrián.
+C: Ángela es más grande que Álvaro. Q: ¿Quién es más delgado? A: Álvaro.
+C: María Ángeles es más rica que Pablo. Q: ¿Quién es más pobre? A: Pablo.
+C: Ángela es más alta que Adrián. Q: ¿Quién es más pequeño? A: Adrián.
+C: María Ángeles es más rica que Álvaro. Q: ¿Quién es más pobre? A: Álvaro.
+C: Pablo es más rápido que Adrián. Q: ¿Quién es más lento? A: Adrián.
+C: María Ángeles es más feliz que Pablo. Q: ¿Quién es más triste? A: Pablo.
+C: Ángela es mayor que Álvaro. Q: ¿Quién es joven? A: Álvaro.
+C: Dolores es más ruidosa que Miguel. Q: ¿Quién es más tranquilo? A: Miguel.
+C: Miguel es más feliz que Adrián. Q: ¿Quién es más triste? A: Adrián.
+C: María es más alta que Dolores. Q: ¿Quién es más pequeño? A: Dolores.
+C: María es más grande que Ángela. Q: ¿Quién es más delgado? A: Ángela.
+C: María es mayor que Miguel. Q: ¿Quién es joven? A: Miguel.
+C: Ángela es mayor que Pablo. Q: ¿Quién es joven? A: Pablo.
+C: María es más grande que María Ángeles. Q: ¿Quién es más delgado? A: María Ángeles.
+C: María Ángeles es mayor que Álvaro. Q: ¿Quién es joven? A: Álvaro.
+C: Ángela es más grande que Javier. Q: ¿Quién es más delgado? A: Javier.
+C: María es más ruidosa que Ángela. Q: ¿Quién es más tranquilo? A: Ángela.
+C: María Ángeles es mayor que Javier. Q: ¿Quién es joven? A: Javier.
+C: María es mayor que María Ángeles. Q: ¿Quién es joven? A: María Ángeles.
+C: Álvaro es más rápido que Adrián. Q: ¿Quién es más lento? A: Adrián.
+C: Miguel es más rápido que Adrián. Q: ¿Quién es más lento? A: Adrián.
+C: María Ángeles es más alta que Javier. Q: ¿Quién es más pequeño? A: Javier.
+C: Miguel es mayor que Adrián. Q: ¿Quién es joven? A: Adrián.
+C: María es más ruidosa que Adrián. Q: ¿Quién es más tranquilo? A: Adrián.
+C: Juana es más ruidosa que Pablo. Q: ¿Quién es más tranquilo? A: Pablo.
+C: Dolores es mayor que Álvaro. Q: ¿Quién es joven? A: Álvaro.
+C: María es mayor que Javier. Q: ¿Quién es joven? A: Javier.
+C: María Ángeles es más rica que Miguel. Q: ¿Quién es más pobre? A: Miguel.
+C: Juana es más alta que María Ángeles. Q: ¿Quién es más pequeño? A: María Ángeles.
+C: Juana es más ruidosa que María Ángeles. Q: ¿Quién es más tranquilo? A: María Ángeles.
+C: Dolores es más rápida que Pablo. Q: ¿Quién es más lento? A: Pablo.
+C: Dolores es más ruidosa que Álvaro. Q: ¿Quién es más tranquilo? A: Álvaro.
+C: Pablo es mayor que Javier. Q: ¿Quién es joven? A: Javier.
+C: Dolores es más alta que Javier. Q: ¿Quién es más pequeño? A: Javier.
+C: Dolores es más ruidosa que María Ángeles. Q: ¿Quién es más tranquilo? A: María Ángeles.
+C: Ángela es más ruidosa que María Ángeles. Q: ¿Quién es más tranquilo? A: María Ángeles.
+C: Dolores es más feliz que Pablo. Q: ¿Quién es más triste? A: Pablo.
+C: Ángela es más alta que María Ángeles. Q: ¿Quién es más pequeño? A: María Ángeles.
+C: María es más feliz que Javier. Q: ¿Quién es más triste? A: Javier.
+C: María es más feliz que Ángela. Q: ¿Quién es más triste? A: Ángela.
+C: Dolores es más alta que Adrián. Q: ¿Quién es más pequeño? A: Adrián.
+C: Ángela es más alta que Javier. Q: ¿Quién es más pequeño? A: Javier.
+C: Álvaro es más rico que Adrián. Q: ¿Quién es más pobre? A: Adrián.
+C: Dolores es más rápida que Adrián. Q: ¿Quién es más lento? A: Adrián.
+C: Javier es más ruidoso que Miguel. Q: ¿Quién es más tranquilo? A: Miguel.
+C: Pablo es más rápido que Miguel. Q: ¿Quién es más lento? A: Miguel.
+C: Dolores es más rica que Javier. Q: ¿Quién es más pobre? A: Javier.
+C: Ángela es más rica que Pablo. Q: ¿Quién es más pobre? A: Pablo.
+C: Juana es más ruidosa que Miguel. Q: ¿Quién es más tranquilo? A: Miguel.
+C: María es mayor que Álvaro. Q: ¿Quién es joven? A: Álvaro.
+C: María es más rica que Álvaro. Q: ¿Quién es más pobre? A: Álvaro.
+C: Dolores es más ruidosa que Adrián. Q: ¿Quién es más tranquilo? A: Adrián.
+C: María es más feliz que María Ángeles. Q: ¿Quién es más triste? A: María Ángeles.
+C: María es más grande que Dolores. Q: ¿Quién es más delgado? A: Dolores.
+C: Álvaro es más rico que Miguel. Q: ¿Quién es más pobre? A: Miguel.
+C: Javier es más feliz que Adrián. Q: ¿Quién es más triste? A: Adrián.
+C: María Ángeles es más rápida que Álvaro. Q: ¿Quién es más lento? A: Álvaro.
+C: Álvaro es más alto que Adrián. Q: ¿Quién es más pequeño? A: Adrián.
+C: Álvaro es mayor que Miguel. Q: ¿Quién es joven? A: Miguel.
+C: María es más rica que Juana. Q: ¿Quién es más pobre? A: Juana.
+C: Ángela es más rica que Álvaro. Q: ¿Quién es más pobre? A: Álvaro.
+C: Dolores es más alta que María Ángeles. Q: ¿Quién es más pequeño? A: María Ángeles.
+C: Juana es más ruidosa que Adrián. Q: ¿Quién es más tranquilo? A: Adrián.
+C: Álvaro es más grande que Javier. Q: ¿Quién es más delgado? A: Javier.
+C: Dolores es más grande que Javier. Q: ¿Quién es más delgado? A: Javier.
+C: María es más rápida que María Ángeles. Q: ¿Quién es más lento? A: María Ángeles.
+C: Pablo es más rápido que Javier. Q: ¿Quién es más lento? A: Javier.
+C: María Ángeles es más grande que Álvaro. Q: ¿Quién es más delgado? A: Álvaro.
+C: Ángela es más rápida que María Ángeles. Q: ¿Quién es más lento? A: María Ángeles.
+C: María es más rápida que Dolores. Q: ¿Quién es más lento? A: Dolores.
+C: Pablo es más alto que Miguel. Q: ¿Quién es más pequeño? A: Miguel.
+C: Dolores es más rica que María Ángeles. Q: ¿Quién es más pobre? A: María Ángeles.
+C: Pablo es más ruidoso que Adrián. Q: ¿Quién es más tranquilo? A: Adrián.
+C: María Ángeles es más feliz que Álvaro. Q: ¿Quién es más triste? A: Álvaro.
+C: María es más ruidosa que Pablo. Q: ¿Quién es más tranquilo? A: Pablo.
+C: Javier es más grande que Adrián. Q: ¿Quién es más delgado? A: Adrián.
+C: María es más alta que Miguel. Q: ¿Quién es más pequeño? A: Miguel.
+C: Juana es más alta que Dolores. Q: ¿Quién es más pequeño? A: Dolores.
+C: María es más alta que Pablo. Q: ¿Quién es más pequeño? A: Pablo.
+C: Juana es mayor que Adrián. Q: ¿Quién es joven? A: Adrián.
+C: Ángela es más feliz que Dolores. Q: ¿Quién es más triste? A: Dolores.
+C: Dolores es más rápida que Álvaro. Q: ¿Quién es más lento? A: Álvaro.
+C: Javier es mayor que Adrián. Q: ¿Quién es joven? A: Adrián.
+C: Pablo es mayor que Adrián. Q: ¿Quién es joven? A: Adrián.
+C: Pablo es más rico que Miguel. Q: ¿Quién es más pobre? A: Miguel.
+C: Juana es más rica que María Ángeles. Q: ¿Quién es más pobre? A: María Ángeles.
+C: Juana es mayor que Javier. Q: ¿Quién es joven? A: Javier.
+C: María Ángeles es más rápida que Javier. Q: ¿Quién es más lento? A: Javier.
+C: María Ángeles es más rápida que Pablo. Q: ¿Quién es más lento? A: Pablo.
+C: Ángela es más ruidosa que Javier. Q: ¿Quién es más tranquilo? A: Javier.
+C: María es más grande que Juana. Q: ¿Quién es más delgado? A: Juana.
+C: Javier es más alto que Miguel. Q: ¿Quién es más pequeño? A: Miguel.
+C: Pablo es más rico que Adrián. Q: ¿Quién es más pobre? A: Adrián.
+C: Ángela es más feliz que Miguel. Q: ¿Quién es más triste? A: Miguel.
+C: Juana es mayor que Ángela. Q: ¿Quién es joven? A: Ángela.
+C: Pablo es más grande que Miguel. Q: ¿Quién es más delgado? A: Miguel.
+C: Ángela es más rica que Javier. Q: ¿Quién es más pobre? A: Javier.
+C: María Ángeles es mayor que Adrián. Q: ¿Quién es joven? A: Adrián.
+C: Juana es más feliz que Ángela. Q: ¿Quién es más triste? A: Ángela.
+C: Juana es más feliz que Adrián. Q: ¿Quién es más triste? A: Adrián.
+C: Juana es más grande que Ángela. Q: ¿Quién es más delgado? A: Ángela.
+C: Álvaro es más rápido que Miguel. Q: ¿Quién es más lento? A: Miguel.
+C: Ángela es más alta que Miguel. Q: ¿Quién es más pequeño? A: Miguel.
+C: Juana es mayor que Miguel. Q: ¿Quién es joven? A: Miguel.
+C: Ángela es más rápida que Adrián. Q: ¿Quién es más lento? A: Adrián.
+C: María Ángeles es más rápida que Adrián. Q: ¿Quién es más lento? A: Adrián.
+C: María es más rápida que Álvaro. Q: ¿Quién es más lento? A: Álvaro.
+C: Dolores es mayor que Pablo. Q: ¿Quién es joven? A: Pablo.
+C: María es mayor que Dolores. Q: ¿Quién es joven? A: Dolores.
+C: María Ángeles es más alta que Adrián. Q: ¿Quién es más pequeño? A: Adrián.
+C: Ángela es más ruidosa que Pablo. Q: ¿Quién es más tranquilo? A: Pablo.
+C: Dolores es mayor que María Ángeles. Q: ¿Quién es joven? A: María Ángeles.
+C: Ángela es más rápida que Dolores. Q: ¿Quién es más lento? A: Dolores.
+C: Juana es más alta que Javier. Q: ¿Quién es más pequeño? A: Javier.
+C: Pablo es más rico que Javier. Q: ¿Quién es más pobre? A: Javier.
+C: Álvaro es más alto que Miguel. Q: ¿Quién es más pequeño? A: Miguel.
+C: Ángela es más grande que Adrián. Q: ¿Quién es más delgado? A: Adrián.
+C: Álvaro es más ruidoso que Adrián. Q: ¿Quién es más tranquilo? A: Adrián.
+C: Juana es más feliz que Álvaro. Q: ¿Quién es más triste? A: Álvaro.
+C: Juana es más rápida que Dolores. Q: ¿Quién es más lento? A: Dolores.
+C: María es más rica que Ángela. Q: ¿Quién es más pobre? A: Ángela.
+C: Juana es más rica que Álvaro. Q: ¿Quién es más pobre? A: Álvaro.
+C: Ángela es más rápida que Javier. Q: ¿Quién es más lento? A: Javier.
+C: Juana es más grande que María Ángeles. Q: ¿Quién es más delgado? A: María Ángeles.
+C: María es más rica que Dolores. Q: ¿Quién es más pobre? A: Dolores.
+C: María Ángeles es más ruidosa que Pablo. Q: ¿Quién es más tranquilo? A: Pablo.
+C: Juana es más alta que Pablo. Q: ¿Quién es más pequeño? A: Pablo.
+C: María es más feliz que Álvaro. Q: ¿Quién es más triste? A: Álvaro.
+C: Pablo es más feliz que Javier. Q: ¿Quién es más triste? A: Javier.
+C: Javier es más feliz que Miguel. Q: ¿Quién es más triste? A: Miguel.
+C: Dolores es más feliz que Álvaro. Q: ¿Quién es más triste? A: Álvaro.
+C: Ángela es más rica que Miguel. Q: ¿Quién es más pobre? A: Miguel.
+C: Álvaro es más feliz que Javier. Q: ¿Quién es más triste? A: Javier.
+C: Ángela es más rápida que Álvaro. Q: ¿Quién es más lento? A: Álvaro.
+C: Dolores es más feliz que María Ángeles. Q: ¿Quién es más triste? A: María Ángeles.
+C: Pablo es más grande que Álvaro. Q: ¿Quién es más delgado? A: Álvaro.
+C: Dolores es más rica que Pablo. Q: ¿Quién es más pobre? A: Pablo.
+C: Miguel es más alto que Adrián. Q: ¿Quién es más pequeño? A: Adrián.
+C: Dolores es más grande que María Ángeles. Q: ¿Quién es más delgado? A: María Ángeles.
+C: Juana es mayor que María Ángeles. Q: ¿Quién es joven? A: María Ángeles.
+C: Dolores es más rica que Miguel. Q: ¿Quién es más pobre? A: Miguel.
+C: Juana es más rápida que Álvaro. Q: ¿Quién es más lento? A: Álvaro.
+C: Ángela es más alta que Álvaro. Q: ¿Quién es más pequeño? A: Álvaro.
+C: Juana es más rica que Adrián. Q: ¿Quién es más pobre? A: Adrián.
+C: Dolores es más feliz que Miguel. Q: ¿Quién es más triste? A: Miguel.
+C: Álvaro es más alto que Javier. Q: ¿Quién es más pequeño? A: Javier.
+C: María es más alta que Ángela. Q: ¿Quién es más pequeño? A: Ángela.
+C: María es mayor que Juana. Q: ¿Quién es joven? A: Juana.
+C: María Ángeles es más rica que Javier. Q: ¿Quién es más pobre? A: Javier.
+C: Álvaro es más ruidoso que Javier. Q: ¿Quién es más tranquilo? A: Javier.
+C: Dolores es más grande que Álvaro. Q: ¿Quién es más delgado? A: Álvaro.
+C: Juana es más rica que Pablo. Q: ¿Quién es más pobre? A: Pablo.
+C: Álvaro es más feliz que Miguel. Q: ¿Quién es más triste? A: Miguel.
+C: María es mayor que Ángela. Q: ¿Quién es joven? A: Ángela.
+C: María es más alta que María Ángeles. Q: ¿Quién es más pequeño? A: María Ángeles.
+C: Álvaro es más grande que Miguel. Q: ¿Quién es más delgado? A: Miguel.
+C: María es mayor que Pablo. Q: ¿Quién es joven? A: Pablo.
+C: Javier es más alto que Adrián. Q: ¿Quién es más pequeño? A: Adrián.
+C: María es más feliz que Miguel. Q: ¿Quién es más triste? A: Miguel.
+C: Ángela es más rápida que Pablo. Q: ¿Quién es más lento? A: Pablo.
+C: Pablo es más alto que Adrián. Q: ¿Quién es más pequeño? A: Adrián.
+C: María Ángeles es más ruidosa que Javier. Q: ¿Quién es más tranquilo? A: Javier.
+C: Juana es más grande que Adrián. Q: ¿Quién es más delgado? A: Adrián.
+C: María es más ruidosa que Miguel. Q: ¿Quién es más tranquilo? A: Miguel.
+C: María es más ruidosa que Álvaro. Q: ¿Quién es más tranquilo? A: Álvaro.
+C: Ángela es más alta que Pablo. Q: ¿Quién es más pequeño? A: Pablo.
+C: Juana es mayor que Álvaro. Q: ¿Quién es joven? A: Álvaro.
+C: Juana es más grande que Álvaro. Q: ¿Quién es más delgado? A: Álvaro.
+C: Álvaro es más feliz que Adrián. Q: ¿Quién es más triste? A: Adrián.
