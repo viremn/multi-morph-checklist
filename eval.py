@@ -434,3 +434,32 @@ def ja_numerals2(data):
     return {'perfect': perfect_matches,
         'positive': positive_matches,
         'negative': negative_matches}
+
+def en_spatial1(data):
+    synonyms = {'next to': ['by',
+                        'beside'],
+            'under': ['below',
+                      'beneath',
+                      'underneath'],
+            'on': ['on top of',
+                   ],
+            'in front of': ['before']
+            }
+
+    place = data['answer'].strip('.')
+    target = data['question'].strip('?').split(' ')[-1]
+    verb = data['question'].strip('?').split(' ')[1]
+
+    non_targets = [data['context'].split(' ')[1]]
+
+    perfect_matches = [place]
+    positive_matches = [f"the {target} {verb} {place.lower()}"]
+    for exp in synonyms:
+        if exp in place.lower():
+            perfect_matches.extend([place.lower().replace(exp, s) for s in synonyms[exp]])
+            positive_matches.extend([f"the {target} {verb} {place.lower().replace(exp, s)}" for s in synonyms[exp]])
+    negative_matches = non_targets
+
+    return {'perfect': perfect_matches,
+            'positive': positive_matches,
+            'negative': negative_matches}
