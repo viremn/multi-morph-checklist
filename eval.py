@@ -40,22 +40,13 @@ def get_answer_variations(data, lang=None, task=None):
             answer_variations = fi_numerals2(data)
         elif lang == 'ja':
             answer_variations = ja_numerals2(data)
-    elif task == 'numerals2':
-        if lang == 'en':
-            pass
-        elif lang == 'de':
-            pass
-        elif lang == 'fi':
-            pass
-        elif lang == 'ja':
-            pass
     elif task == 'spatial1':
         if lang == 'en':
-            pass
+            answer_variations = en_spatial1(data)
         elif lang == 'de':
-            pass
+            answer_variations = de_spatial1(data)
         elif lang == 'fi':
-            pass
+            answer_variations = fi_spatial1(data)
         elif lang == 'ja':
             pass
     elif task == 'spatial2':
@@ -436,16 +427,6 @@ def ja_numerals2(data):
         'negative': negative_matches}
 
 def en_spatial1(data):
-    synonyms = {'next to': ['by',
-                        'beside'],
-            'under': ['below',
-                      'beneath',
-                      'underneath'],
-            'on': ['on top of',
-                   ],
-            'in front of': ['before']
-            }
-
     place = data['answer'].strip('.')
     target = data['question'].strip('?').split(' ')[-1]
     verb = data['question'].strip('?').split(' ')[1]
@@ -454,10 +435,36 @@ def en_spatial1(data):
 
     perfect_matches = [place]
     positive_matches = [f"the {target} {verb} {place.lower()}"]
-    for exp in synonyms:
-        if exp in place.lower():
-            perfect_matches.extend([place.lower().replace(exp, s) for s in synonyms[exp]])
-            positive_matches.extend([f"the {target} {verb} {place.lower().replace(exp, s)}" for s in synonyms[exp]])
+    negative_matches = non_targets
+
+    return {'perfect': perfect_matches,
+            'positive': positive_matches,
+            'negative': negative_matches}
+
+def de_spatial1(data):
+    place = data['answer'].strip('.')
+    target = data['question'].strip('?').split(' ')[-1]
+    verb = data['question'].strip('?').split(' ')[1]
+
+    non_targets = [data['context'].split(' ')[1]]
+
+    perfect_matches = [place]
+    positive_matches = [f"the {target} {verb} {place.lower()}"]
+    negative_matches = non_targets
+
+    return {'perfect': perfect_matches,
+            'positive': positive_matches,
+            'negative': negative_matches}
+
+def fi_spatial1(data):
+    place = data['answer'].strip('.')
+    target = data['question'].strip('?').split(' ')[-1]
+    verb = data['question'].strip('?').split(' ')[1]
+
+    non_targets = [data['context'].split(' ')[1]]
+
+    perfect_matches = [place]
+    positive_matches = [f"{target} {verb} {place.lower()}"]
     negative_matches = non_targets
 
     return {'perfect': perfect_matches,
