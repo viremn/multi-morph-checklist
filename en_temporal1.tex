@@ -1,0 +1,18 @@
+\begin{table}[h]
+\begin{tabular}{l|llllll}
+\toprule
+model & alt1b & alt2b & one1b & one2b & zero1b & zero2b \\
+pattern &  &  &  &  &  &  \\
+\midrule
+P1 & 64.40 & 47.80 & 82.40 & 75.20 & 97.40 & 87.20 \\
+P1|N1 & 64.40 & 47.00 & 82.40 & 75.20 & 95.40 & 41.60 \\
+P1|N1|N2 & 64.40 & 47.00 & 82.40 & 75.20 & 95.40 & 41.60 \\
+P1|N2 & 64.40 & 47.80 & 82.40 & 75.20 & 97.40 & 86.20 \\
+P1|P2|NEG & 0.00 & 0.00 & 0.00 & 0.00 & 88.20 & 80.20 \\
+P1|P2|NEG|N1 & 0.00 & 0.00 & 0.00 & 0.00 & 88.20 & 38.40 \\
+P1|P2|NEG|N1|N2 & 0.00 & 0.00 & 0.00 & 0.00 & 88.20 & 38.40 \\
+\bottomrule
+\end{tabular}
+\caption{Performance metrics for the temporal1 task for different model setups for english, zero=zeroshot, one=oneshot, alt=oneshot with alternated example, 1b=1 beam, 2b=2 beams}
+\label{tab:en_temporal1_performance}
+\end{table}

@@ -1,0 +1,18 @@
+\begin{table}[h]
+\begin{tabular}{l|llllll}
+\toprule
+model & alt1b & alt2b & one1b & one2b & zero1b & zero2b \\
+pattern &  &  &  &  &  &  \\
+\midrule
+P1 & 30.40 & 41.40 & 65.60 & 80.60 & 49.40 & 78.80 \\
+P1|N1 & 30.40 & 41.20 & 65.60 & 80.60 & 36.60 & 38.60 \\
+P1|N1|N2 & 30.40 & 41.40 & 65.60 & 80.60 & 26.40 & 29.00 \\
+P1|N2 & 30.40 & 41.40 & 65.60 & 80.60 & 26.40 & 29.00 \\
+P1|P2|NEG & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 \\
+P1|P2|NEG|N1 & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 \\
+P1|P2|NEG|N1|N2 & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 \\
+\bottomrule
+\end{tabular}
+\caption{Performance metrics for the negation2 task for different model setups for finnish, zero=zeroshot, one=oneshot, alt=oneshot with alternated example, 1b=1 beam, 2b=2 beams}
+\label{tab:fi_negation2_performance}
+\end{table}

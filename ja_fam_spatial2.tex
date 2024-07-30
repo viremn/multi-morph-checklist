@@ -1,0 +1,18 @@
+\begin{table}[h]
+\begin{tabular}{l|llllll}
+\toprule
+model & alt1b & alt2b & one1b & one2b & zero1b & zero2b \\
+pattern &  &  &  &  &  &  \\
+\midrule
+P1|NEG & 10.40 & 1.60 & 38.00 & 44.00 & 20.00 & 32.20 \\
+P1|NEG|N1 & 10.40 & 1.60 & 38.00 & 44.00 & 19.60 & 32.00 \\
+P1|NEG|N1|N2 & 10.40 & 1.60 & 37.20 & 43.80 & 16.00 & 24.00 \\
+P1|NEG|N2 & 10.40 & 1.60 & 37.20 & 43.80 & 16.00 & 24.00 \\
+P1|P2|NEG & 0.00 & 0.00 & 1.40 & 0.00 & 3.00 & 3.40 \\
+P1|P2|NEG|N1 & 0.00 & 0.00 & 1.40 & 0.00 & 3.00 & 3.40 \\
+P1|P2|NEG|N1|N2 & 0.00 & 0.00 & 1.40 & 0.00 & 3.00 & 3.20 \\
+\bottomrule
+\end{tabular}
+\caption{Performance metrics for the spatial2 task for different model setups for familiar japanese, zero=zeroshot, one=oneshot, alt=oneshot with alternated example, 1b=1 beam, 2b=2 beams}
+\label{tab:ja fam_spatial2_performance}
+\end{table}

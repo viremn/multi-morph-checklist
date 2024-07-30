@@ -1,0 +1,18 @@
+\begin{table}[h]
+\begin{tabular}{l|llllll}
+\toprule
+model & alt1b & alt2b & one1b & one2b & zero1b & zero2b \\
+pattern &  &  &  &  &  &  \\
+\midrule
+P1 & 26.80 & 47.40 & 2.40 & 4.20 & 70.60 & 78.60 \\
+P1|N1 & 20.60 & 35.20 & 2.40 & 4.20 & 56.20 & 37.00 \\
+P1|N1|N2 & 20.60 & 33.00 & 2.40 & 4.20 & 51.60 & 28.80 \\
+P1|N2 & 26.80 & 43.60 & 2.40 & 4.20 & 64.40 & 39.80 \\
+P1|P2|NEG & 3.60 & 0.00 & 0.00 & 0.00 & 49.40 & 38.60 \\
+P1|P2|NEG|N1 & 1.80 & 0.00 & 0.00 & 0.00 & 44.80 & 29.40 \\
+P1|P2|NEG|N1|N2 & 1.80 & 0.00 & 0.00 & 0.00 & 43.40 & 27.80 \\
+\bottomrule
+\end{tabular}
+\caption{Performance metrics for the temporal2 task for different model setups for familiar japanese, zero=zeroshot, one=oneshot, alt=oneshot with alternated example, 1b=1 beam, 2b=2 beams}
+\label{tab:ja fam_temporal2_performance}
+\end{table}
