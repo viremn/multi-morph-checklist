@@ -1,0 +1,26 @@
+
+\begin{table}[h]
+\centering
+\begin{tabular}{p{1\textwidth}}
+\toprule
+\textbf{Task: Negation2} \\ 
+\textbf{Language: English} \\ 
+\midrule
+\end{tabular}
+\vspace{10pt}
+\begin{tabular}{p{0.23\textwidth}|p{0.16\textwidth}p{0.16\textwidth}p{0.16\textwidth}p{0.16\textwidth}}
+\toprule
+\textbf{Model} & $XGLM_{564M}^{1beam}$ & $XGLM_{564M}^{2beam}$ & $XGLM_{1.7B}^{1beam}$ & $mGPT_{1.3B}^{1beam}$ \\
+\textbf{Pattern} &  &  &  &  \\
+\midrule
+P1 & 31.4/28.0/26.0 & 80.4/49.4/40.0 & 73.2/-/- & 30.0/36.4/10.8 \\
+P1|N1 & 8.6/28.0/26.0 & 10.8/49.4/40.0 & 67.8/-/- & 14.6/36.4/10.6 \\
+P1|P2|NEG & 0.8/0.0/0.0 & 2.6/0.0/0.0 & 1.0/-/- & 0.6/0.0/0.0 \\
+P1|P2|NEG|N1 & 0.0/0.0/0.0 & 0.0/0.0/0.0 & 0.0/-/- & 0.0/0.0/0.0 \\
+P1|P3|nNEG & 25.4/0.0/0.0 & 70.4/0.0/0.0 & 2.0/-/- & 13.4/0.0/0.0 \\
+P1|P3|nNEG|N1 & 3.6/0.0/0.0 & 4.6/0.0/0.0 & 1.0/-/- & 1.0/0.0/0.0 \\
+\bottomrule
+\end{tabular}
+\caption{Accuracy for the negation2 task in English for different model and experimental setups. Values=Zeroshot/Oneshot/Alternate Example Oneshot.}
+\label{tab:en_negation2_performance}
+\end{table}

@@ -1,0 +1,28 @@
+
+\begin{table}[h]
+\centering
+\begin{tabular}{p{1\textwidth}}
+\toprule
+\textbf{Task: Spatial2} \\ 
+\textbf{Language: Pooled} \\ 
+\midrule
+\end{tabular}
+\vspace{10pt}
+\begin{tabular}{p{0.23\textwidth}|p{0.16\textwidth}p{0.16\textwidth}p{0.16\textwidth}p{0.16\textwidth}}
+\toprule
+\textbf{Model} & $XGLM_{564M}^{1beam}$ & $XGLM_{564M}^{2beam}$ & $XGLM_{1.7B}^{1beam}$ & $mGPT_{1.3B}^{1beam}$ \\
+\textbf{Pattern} &  &  &  &  \\
+\midrule
+P1|NEG & 28.2/22.7/15.0 & 42.7/20.4/16.2 & 63.0/-/- & 38.7/40.0/40.4 \\
+P1|NEG|N1 & 28.1/22.7/15.0 & 42.6/20.4/16.2 & 63.0/-/- & 38.7/40.0/40.4 \\
+P1|NEG|N1|N2 & 23.9/20.2/12.4 & 35.4/17.9/14.2 & 53.6/-/- & 25.0/37.8/38.9 \\
+P1|NEG|N2 & 23.9/20.2/12.4 & 35.4/17.9/14.2 & 53.6/-/- & 25.0/37.8/38.9 \\
+P1|P2|NEG & 17.8/1.6/1.7 & 25.3/0.4/1.7 & 27.9/-/- & 33.1/13.2/13.2 \\
+P1|P2|NEG|N1 & 17.8/1.6/1.7 & 25.3/0.4/1.7 & 27.9/-/- & 33.1/13.2/13.2 \\
+P1|P2|NEG|N1|N2 & 17.8/1.6/1.7 & 25.1/0.4/1.4 & 27.4/-/- & 22.1/12.6/12.3 \\
+P1|P2|NEG|N2 & 17.8/1.6/1.7 & 25.1/0.4/1.4 & 27.4/-/- & 22.1/12.6/12.3 \\
+\bottomrule
+\end{tabular}
+\caption{Pooled accuracy for the spatial2 task for different model and experimental setups. Values=Zeroshot/Oneshot/Alternate Example Oneshot.}
+\label{tab:pooled_spatial2_performance}
+\end{table}

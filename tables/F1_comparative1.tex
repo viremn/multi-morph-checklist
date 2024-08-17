@@ -1,0 +1,51 @@
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{p{0.9\textwidth}}
+\toprule
+\textbf{Task: Comparative1} \\
+\midrule
+\end{tabular}
+\vspace{10pt}
+\begin{tabular}{llrrrrrrr}
+\toprule
+ &  & TP & FP & TN & FN & P & R & F1 \\
+pattern & lang &  &  &  &  &  &  &  \\
+\midrule
+\multirow[t]{3}{*}{P1|NEG} & en & 559 & 278 & 327 & 54 & 0.668 & 0.912 & 0.771 \\
+ & ja & 65 & 129 & 454 & 0 & 0.335 & 1.000 & 0.502 \\
+ & pooled & 624 & 407 & 781 & 54 & 0.605 & 0.920 & 0.730 \\
+\cline{1-9}
+\multirow[t]{3}{*}{P1|NEG|N1} & en & 533 & 0 & 605 & 80 & 1.000 & 0.869 & 0.930 \\
+ & ja & 65 & 43 & 540 & 0 & 0.602 & 1.000 & 0.751 \\
+ & pooled & 598 & 43 & 1145 & 80 & 0.933 & 0.882 & 0.907 \\
+\cline{1-9}
+\multirow[t]{3}{*}{P1|NEG|N1|N2} & en & 533 & 0 & 605 & 80 & 1.000 & 0.869 & 0.930 \\
+ & ja & 65 & 2 & 581 & 0 & 0.970 & 1.000 & 0.985 \\
+ & pooled & 598 & 2 & 1186 & 80 & 0.997 & 0.882 & 0.936 \\
+\cline{1-9}
+\multirow[t]{3}{*}{P1|NEG|N2} & en & 559 & 69 & 536 & 54 & 0.890 & 0.912 & 0.901 \\
+ & ja & 65 & 4 & 579 & 0 & 0.942 & 1.000 & 0.970 \\
+ & pooled & 624 & 73 & 1115 & 54 & 0.895 & 0.920 & 0.908 \\
+\cline{1-9}
+\multirow[t]{3}{*}{P1|P2|NEG} & en & 28 & 69 & 536 & 585 & 0.289 & 0.046 & 0.079 \\
+ & ja & 12 & 7 & 576 & 53 & 0.632 & 0.185 & 0.286 \\
+ & pooled & 40 & 76 & 1112 & 638 & 0.345 & 0.059 & 0.101 \\
+\cline{1-9}
+\multirow[t]{3}{*}{P1|P2|NEG|N1} & en & 2 & 0 & 605 & 611 & 1.000 & 0.003 & 0.007 \\
+ & ja & 12 & 2 & 581 & 53 & 0.857 & 0.185 & 0.304 \\
+ & pooled & 14 & 2 & 1186 & 664 & 0.875 & 0.021 & 0.040 \\
+\cline{1-9}
+\multirow[t]{3}{*}{P1|P2|NEG|N1|N2} & en & 2 & 0 & 605 & 611 & 1.000 & 0.003 & 0.007 \\
+ & ja & 12 & 0 & 583 & 53 & 1.000 & 0.185 & 0.312 \\
+ & pooled & 14 & 0 & 1188 & 664 & 1.000 & 0.021 & 0.040 \\
+\cline{1-9}
+\multirow[t]{3}{*}{P1|P2|NEG|N2} & en & 28 & 69 & 536 & 585 & 0.289 & 0.046 & 0.079 \\
+ & ja & 12 & 2 & 581 & 53 & 0.857 & 0.185 & 0.304 \\
+ & pooled & 40 & 71 & 1117 & 638 & 0.360 & 0.059 & 0.101 \\
+\cline{1-9}
+\bottomrule
+\end{tabular}
+\caption{F-score measure for matching patterns in the comparative1 task. TP=True Positive, FP=False Positive, TN=True Negative, FN=False Negative, P=Precision, R=Recall.}
+\label{tab:comparative1_f1}
+\end{table}

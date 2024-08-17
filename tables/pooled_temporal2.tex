@@ -1,0 +1,28 @@
+
+\begin{table}[h]
+\centering
+\begin{tabular}{p{1\textwidth}}
+\toprule
+\textbf{Task: Temporal2} \\ 
+\textbf{Language: Pooled} \\ 
+\midrule
+\end{tabular}
+\vspace{10pt}
+\begin{tabular}{p{0.23\textwidth}|p{0.16\textwidth}p{0.16\textwidth}p{0.16\textwidth}p{0.16\textwidth}}
+\toprule
+\textbf{Model} & $XGLM_{564M}^{1beam}$ & $XGLM_{564M}^{2beam}$ & $XGLM_{1.7B}^{1beam}$ & $mGPT_{1.3B}^{1beam}$ \\
+\textbf{Pattern} &  &  &  &  \\
+\midrule
+P1 & 71.8/33.0/44.4 & 82.3/31.7/48.6 & 54.4/-/- & 68.5/34.0/88.0 \\
+P1|N1 & 46.4/33.0/4.4 & 21.6/31.1/8.6 & 43.3/-/- & 50.0/33.7/1.6 \\
+P1|N1|N2 & 42.4/33.0/4.3 & 17.7/31.1/8.2 & 41.7/-/- & 47.7/33.7/1.4 \\
+P1|N2 & 52.0/33.0/44.3 & 33.1/31.7/47.9 & 45.1/-/- & 62.3/33.7/77.4 \\
+P1|P2|NEG & 38.3/0.0/0.6 & 29.3/0.0/0.0 & 5.5/-/- & 26.9/0.0/0.8 \\
+P1|P2|NEG|N1 & 33.6/0.0/0.3 & 16.1/0.0/0.0 & 3.5/-/- & 22.5/0.0/0.2 \\
+P1|P2|NEG|N1|N2 & 33.2/0.0/0.3 & 15.7/0.0/0.0 & 3.1/-/- & 21.7/0.0/0.2 \\
+P1|P2|NEG|N2 & 37.3/0.0/0.6 & 28.1/0.0/0.0 & 4.7/-/- & 25.6/0.0/0.7 \\
+\bottomrule
+\end{tabular}
+\caption{Pooled accuracy for the temporal2 task for different model and experimental setups. Values=Zeroshot/Oneshot/Alternate Example Oneshot.}
+\label{tab:pooled_temporal2_performance}
+\end{table}

@@ -1,0 +1,31 @@
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{p{0.9\textwidth}}
+\toprule
+\textbf{Task: Counters} \\
+\midrule
+\end{tabular}
+\vspace{10pt}
+\begin{tabular}{llrrrrrrr}
+\toprule
+ &  & TP & FP & TN & FN & P & R & F1 \\
+pattern & lang &  &  &  &  &  &  &  \\
+\midrule
+\multirow[t]{2}{*}{P1|NEG} & ja & 8 & 0 & 592 & 0 & 1.000 & 1.000 & 1.000 \\
+ & pooled & 8 & 0 & 592 & 0 & 1.000 & 1.000 & 1.000 \\
+\cline{1-9}
+\multirow[t]{2}{*}{P1|NEG|N1} & ja & 8 & 0 & 592 & 0 & 1.000 & 1.000 & 1.000 \\
+ & pooled & 8 & 0 & 592 & 0 & 1.000 & 1.000 & 1.000 \\
+\cline{1-9}
+\multirow[t]{2}{*}{P1|P2|NEG} & ja & 0 & 0 & 592 & 8 & 0.000 & 0.000 & 0.000 \\
+ & pooled & 0 & 0 & 592 & 8 & 0.000 & 0.000 & 0.000 \\
+\cline{1-9}
+\multirow[t]{2}{*}{P1|P2|NEG|N1} & ja & 0 & 0 & 592 & 8 & 0.000 & 0.000 & 0.000 \\
+ & pooled & 0 & 0 & 592 & 8 & 0.000 & 0.000 & 0.000 \\
+\cline{1-9}
+\bottomrule
+\end{tabular}
+\caption{F-score measure for matching patterns in the counters task. TP=True Positive, FP=False Positive, TN=True Negative, FN=False Negative, P=Precision, R=Recall.}
+\label{tab:counters_f1}
+\end{table}

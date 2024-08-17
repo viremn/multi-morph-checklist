@@ -1,0 +1,35 @@
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{p{0.9\textwidth}}
+\toprule
+\textbf{Task: Comparative2} \\
+\midrule
+\end{tabular}
+\vspace{10pt}
+\begin{tabular}{llrrrrrrr}
+\toprule
+ &  & TP & FP & TN & FN & P & R & F1 \\
+pattern & lang &  &  &  &  &  &  &  \\
+\midrule
+\multirow[t]{3}{*}{P1|NEG} & en & 65 & 4 & 651 & 0 & 0.942 & 1.000 & 0.970 \\
+ & ja & 34 & 36 & 542 & 0 & 0.486 & 1.000 & 0.654 \\
+ & pooled & 99 & 40 & 1193 & 0 & 0.712 & 1.000 & 0.832 \\
+\cline{1-9}
+\multirow[t]{3}{*}{P1|NEG|N1} & en & 65 & 3 & 652 & 0 & 0.956 & 1.000 & 0.977 \\
+ & ja & 33 & 32 & 546 & 1 & 0.508 & 0.971 & 0.667 \\
+ & pooled & 98 & 35 & 1198 & 1 & 0.737 & 0.990 & 0.845 \\
+\cline{1-9}
+\multirow[t]{3}{*}{P1|P2|NEG} & en & 11 & 3 & 652 & 54 & 0.786 & 0.169 & 0.278 \\
+ & ja & 17 & 5 & 573 & 17 & 0.773 & 0.500 & 0.607 \\
+ & pooled & 28 & 8 & 1225 & 71 & 0.778 & 0.283 & 0.415 \\
+\cline{1-9}
+\multirow[t]{3}{*}{P1|P2|NEG|N1} & en & 11 & 2 & 653 & 54 & 0.846 & 0.169 & 0.282 \\
+ & ja & 17 & 4 & 574 & 17 & 0.810 & 0.500 & 0.618 \\
+ & pooled & 28 & 6 & 1227 & 71 & 0.824 & 0.283 & 0.421 \\
+\cline{1-9}
+\bottomrule
+\end{tabular}
+\caption{F-score measure for matching patterns in the comparative2 task. TP=True Positive, FP=False Positive, TN=True Negative, FN=False Negative, P=Precision, R=Recall.}
+\label{tab:comparative2_f1}
+\end{table}

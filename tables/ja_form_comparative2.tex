@@ -1,0 +1,24 @@
+
+\begin{table}[h]
+\centering
+\begin{tabular}{p{1\textwidth}}
+\toprule
+\textbf{Task: Comparative2} \\ 
+\textbf{Language: Formal Japanese} \\ 
+\midrule
+\end{tabular}
+\vspace{10pt}
+\begin{tabular}{p{0.23\textwidth}|p{0.16\textwidth}p{0.16\textwidth}p{0.16\textwidth}p{0.16\textwidth}}
+\toprule
+\textbf{Model} & $XGLM_{564M}^{1beam}$ & $XGLM_{564M}^{2beam}$ & $XGLM_{1.7B}^{1beam}$ & $mGPT_{1.3B}^{1beam}$ \\
+\textbf{Pattern} &  &  &  &  \\
+\midrule
+P1|NEG & 33.4/0.0/0.0 & 28.2/0.0/0.0 & 67.4/-/- & 43.0/5.4/16.4 \\
+P1|NEG|N1 & 31.8/0.0/0.0 & 26.6/0.0/0.0 & 66.8/-/- & 41.2/5.2/12.6 \\
+P1|P2|NEG & 12.4/0.0/0.0 & 9.8/0.0/0.0 & 12.6/-/- & 5.8/0.0/1.6 \\
+P1|P2|NEG|N1 & 12.2/0.0/0.0 & 9.6/0.0/0.0 & 12.2/-/- & 5.2/0.0/1.6 \\
+\bottomrule
+\end{tabular}
+\caption{Accuracy for the comparative2 task in formal Japanese for different model and experimental setups. Values=Zeroshot/Oneshot/Alternate Example Oneshot.}
+\label{tab:ja form_comparative2_performance}
+\end{table}

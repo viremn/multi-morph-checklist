@@ -1,0 +1,51 @@
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{p{0.9\textwidth}}
+\toprule
+\textbf{Task: Temporal1} \\
+\midrule
+\end{tabular}
+\vspace{10pt}
+\begin{tabular}{llrrrrrrr}
+\toprule
+ &  & TP & FP & TN & FN & P & R & F1 \\
+pattern & lang &  &  &  &  &  &  &  \\
+\midrule
+\multirow[t]{3}{*}{P1} & en & 425 & 48 & 133 & 0 & 0.899 & 1.000 & 0.947 \\
+ & ja & 90 & 78 & 462 & 0 & 0.536 & 1.000 & 0.698 \\
+ & pooled & 515 & 126 & 595 & 0 & 0.803 & 1.000 & 0.891 \\
+\cline{1-9}
+\multirow[t]{3}{*}{P1|N1} & en & 423 & 4 & 177 & 2 & 0.991 & 0.995 & 0.993 \\
+ & ja & 90 & 33 & 507 & 0 & 0.732 & 1.000 & 0.845 \\
+ & pooled & 513 & 37 & 684 & 2 & 0.933 & 0.996 & 0.963 \\
+\cline{1-9}
+\multirow[t]{3}{*}{P1|N1|N2} & en & 423 & 4 & 177 & 2 & 0.991 & 0.995 & 0.993 \\
+ & ja & 89 & 16 & 524 & 1 & 0.848 & 0.989 & 0.913 \\
+ & pooled & 512 & 20 & 701 & 3 & 0.962 & 0.994 & 0.978 \\
+\cline{1-9}
+\multirow[t]{3}{*}{P1|N2} & en & 425 & 48 & 133 & 0 & 0.899 & 1.000 & 0.947 \\
+ & ja & 89 & 30 & 510 & 1 & 0.748 & 0.989 & 0.852 \\
+ & pooled & 514 & 78 & 643 & 1 & 0.868 & 0.998 & 0.929 \\
+\cline{1-9}
+\multirow[t]{3}{*}{P1|P2|NEG} & en & 131 & 40 & 141 & 294 & 0.766 & 0.308 & 0.440 \\
+ & ja & 67 & 17 & 523 & 23 & 0.798 & 0.744 & 0.770 \\
+ & pooled & 198 & 57 & 664 & 317 & 0.776 & 0.384 & 0.514 \\
+\cline{1-9}
+\multirow[t]{3}{*}{P1|P2|NEG|N1} & en & 130 & 0 & 181 & 295 & 1.000 & 0.306 & 0.468 \\
+ & ja & 67 & 7 & 533 & 23 & 0.905 & 0.744 & 0.817 \\
+ & pooled & 197 & 7 & 714 & 318 & 0.966 & 0.383 & 0.548 \\
+\cline{1-9}
+\multirow[t]{3}{*}{P1|P2|NEG|N1|N2} & en & 130 & 0 & 181 & 295 & 1.000 & 0.306 & 0.468 \\
+ & ja & 67 & 6 & 534 & 23 & 0.918 & 0.744 & 0.822 \\
+ & pooled & 197 & 6 & 715 & 318 & 0.970 & 0.383 & 0.549 \\
+\cline{1-9}
+\multirow[t]{3}{*}{P1|P2|NEG|N2} & en & 131 & 40 & 141 & 294 & 0.766 & 0.308 & 0.440 \\
+ & ja & 67 & 13 & 527 & 23 & 0.838 & 0.744 & 0.788 \\
+ & pooled & 198 & 53 & 668 & 317 & 0.789 & 0.384 & 0.517 \\
+\cline{1-9}
+\bottomrule
+\end{tabular}
+\caption{F-score measure for matching patterns in the temporal1 task. TP=True Positive, FP=False Positive, TN=True Negative, FN=False Negative, P=Precision, R=Recall.}
+\label{tab:temporal1_f1}
+\end{table}

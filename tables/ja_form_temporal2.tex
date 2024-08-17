@@ -1,0 +1,28 @@
+
+\begin{table}[h]
+\centering
+\begin{tabular}{p{1\textwidth}}
+\toprule
+\textbf{Task: Temporal2} \\ 
+\textbf{Language: Formal Japanese} \\ 
+\midrule
+\end{tabular}
+\vspace{10pt}
+\begin{tabular}{p{0.23\textwidth}|p{0.16\textwidth}p{0.16\textwidth}p{0.16\textwidth}p{0.16\textwidth}}
+\toprule
+\textbf{Model} & $XGLM_{564M}^{1beam}$ & $XGLM_{564M}^{2beam}$ & $XGLM_{1.7B}^{1beam}$ & $mGPT_{1.3B}^{1beam}$ \\
+\textbf{Pattern} &  &  &  &  \\
+\midrule
+P1 & 60.4/2.0/3.0 & 71.6/0.8/0.8 & 50.4/-/- & 55.8/3.4/96.2 \\
+P1|N1 & 47.4/2.0/0.2 & 18.8/0.8/0.0 & 41.0/-/- & 50.8/3.4/0.0 \\
+P1|N1|N2 & 37.8/2.0/0.2 & 13.4/0.8/0.0 & 40.8/-/- & 44.6/3.4/0.0 \\
+P1|N2 & 47.2/2.0/3.0 & 30.8/0.8/0.8 & 41.4/-/- & 49.4/3.4/96.2 \\
+P1|P2|NEG & 31.8/0.0/0.0 & 21.8/0.0/0.0 & 5.0/-/- & 43.8/0.0/0.0 \\
+P1|P2|NEG|N1 & 28.6/0.0/0.0 & 11.8/0.0/0.0 & 4.4/-/- & 39.6/0.0/0.0 \\
+P1|P2|NEG|N1|N2 & 28.6/0.0/0.0 & 11.8/0.0/0.0 & 4.4/-/- & 39.4/0.0/0.0 \\
+P1|P2|NEG|N2 & 30.6/0.0/0.0 & 21.4/0.0/0.0 & 5.0/-/- & 43.6/0.0/0.0 \\
+\bottomrule
+\end{tabular}
+\caption{Accuracy for the temporal2 task in formal Japanese for different model and experimental setups. Values=Zeroshot/Oneshot/Alternate Example Oneshot.}
+\label{tab:ja form_temporal2_performance}
+\end{table}

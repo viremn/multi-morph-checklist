@@ -1,0 +1,28 @@
+
+\begin{table}[h]
+\centering
+\begin{tabular}{p{1\textwidth}}
+\toprule
+\textbf{Task: Temporal2} \\ 
+\textbf{Language: English} \\ 
+\midrule
+\end{tabular}
+\vspace{10pt}
+\begin{tabular}{p{0.23\textwidth}|p{0.16\textwidth}p{0.16\textwidth}p{0.16\textwidth}p{0.16\textwidth}}
+\toprule
+\textbf{Model} & $XGLM_{564M}^{1beam}$ & $XGLM_{564M}^{2beam}$ & $XGLM_{1.7B}^{1beam}$ & $mGPT_{1.3B}^{1beam}$ \\
+\textbf{Pattern} &  &  &  &  \\
+\midrule
+P1 & 96.4/69.0/68.0 & 99.2/58.2/54.4 & 54.8/-/- & 94.2/41.6/64.2 \\
+P1|N1 & 85.0/69.0/0.6 & 32.2/58.2/0.0 & 54.6/-/- & 74.0/41.6/0.0 \\
+P1|N1|N2 & 85.0/69.0/0.6 & 32.2/58.2/0.0 & 54.6/-/- & 74.0/41.6/0.0 \\
+P1|N2 & 91.4/69.0/68.0 & 75.4/58.2/54.4 & 54.8/-/- & 93.8/41.6/64.2 \\
+P1|P2|NEG & 82.4/0.0/0.0 & 72.4/0.0/0.0 & 0.0/-/- & 24.0/0.0/0.0 \\
+P1|P2|NEG|N1 & 76.4/0.0/0.0 & 30.0/0.0/0.0 & 0.0/-/- & 22.2/0.0/0.0 \\
+P1|P2|NEG|N1|N2 & 76.4/0.0/0.0 & 30.0/0.0/0.0 & 0.0/-/- & 22.2/0.0/0.0 \\
+P1|P2|NEG|N2 & 82.4/0.0/0.0 & 72.4/0.0/0.0 & 0.0/-/- & 24.0/0.0/0.0 \\
+\bottomrule
+\end{tabular}
+\caption{Accuracy for the temporal2 task in English for different model and experimental setups. Values=Zeroshot/Oneshot/Alternate Example Oneshot.}
+\label{tab:en_temporal2_performance}
+\end{table}

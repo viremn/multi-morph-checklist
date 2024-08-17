@@ -1,0 +1,24 @@
+
+\begin{table}[h]
+\centering
+\begin{tabular}{p{1\textwidth}}
+\toprule
+\textbf{Task: Negation1} \\ 
+\textbf{Language: Pooled} \\ 
+\midrule
+\end{tabular}
+\vspace{10pt}
+\begin{tabular}{p{0.23\textwidth}|p{0.16\textwidth}p{0.16\textwidth}p{0.16\textwidth}p{0.16\textwidth}}
+\toprule
+\textbf{Model} & $XGLM_{564M}^{1beam}$ & $XGLM_{564M}^{2beam}$ & $XGLM_{1.7B}^{1beam}$ & $mGPT_{1.3B}^{1beam}$ \\
+\textbf{Pattern} &  &  &  &  \\
+\midrule
+P1 & 42.7/23.2/13.0 & 68.1/26.0/19.2 & 40.3/-/- & 60.8/39.6/25.5 \\
+P1|N1 & 33.2/23.2/13.0 & 31.0/25.9/19.2 & 31.7/-/- & 44.5/39.6/25.4 \\
+P1|P2|NEG & 14.8/0.0/0.0 & 24.7/0.0/0.0 & 3.4/-/- & 8.4/0.0/0.0 \\
+P1|P2|NEG|N1 & 13.1/0.0/0.0 & 11.9/0.0/0.0 & 3.0/-/- & 7.8/0.0/0.0 \\
+\bottomrule
+\end{tabular}
+\caption{Pooled accuracy for the negation1 task for different model and experimental setups. Values=Zeroshot/Oneshot/Alternate Example Oneshot.}
+\label{tab:pooled_negation1_performance}
+\end{table}

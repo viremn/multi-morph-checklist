@@ -1,0 +1,28 @@
+
+\begin{table}[h]
+\centering
+\begin{tabular}{p{1\textwidth}}
+\toprule
+\textbf{Task: Spatial1} \\ 
+\textbf{Language: Finnish} \\ 
+\midrule
+\end{tabular}
+\vspace{10pt}
+\begin{tabular}{p{0.23\textwidth}|p{0.16\textwidth}p{0.16\textwidth}p{0.16\textwidth}p{0.16\textwidth}}
+\toprule
+\textbf{Model} & $XGLM_{564M}^{1beam}$ & $XGLM_{564M}^{2beam}$ & $XGLM_{1.7B}^{1beam}$ & $mGPT_{1.3B}^{1beam}$ \\
+\textbf{Pattern} &  &  &  &  \\
+\midrule
+P1|NEG & 27.2/13.4/16.0 & 63.8/14.8/20.8 & 40.2/-/- & 13.6/23.0/55.2 \\
+P1|NEG|N1 & 11.2/13.4/14.8 & 8.2/10.8/11.4 & 21.4/-/- & 7.0/23.0/54.2 \\
+P1|NEG|N1|N2 & 11.0/13.2/14.6 & 7.8/10.6/11.4 & 20.0/-/- & 6.6/23.0/54.2 \\
+P1|NEG|N2 & 19.8/13.2/14.6 & 47.4/11.6/14.8 & 20.2/-/- & 7.0/23.0/54.2 \\
+P1|P2|NEG & 24.2/3.0/6.2 & 61.8/6.0/12.8 & 33.6/-/- & 13.2/0.8/2.2 \\
+P1|P2|NEG|N1 & 8.2/3.0/5.0 & 6.2/2.0/3.4 & 14.8/-/- & 6.6/0.8/1.2 \\
+P1|P2|NEG|N1|N2 & 8.0/3.0/5.0 & 5.8/2.0/3.4 & 14.8/-/- & 6.6/0.8/1.2 \\
+P1|P2|NEG|N2 & 16.8/3.0/5.0 & 45.4/3.0/6.8 & 15.0/-/- & 7.0/0.8/1.2 \\
+\bottomrule
+\end{tabular}
+\caption{Accuracy for the spatial1 task in Finnish for different model and experimental setups. Values=Zeroshot/Oneshot/Alternate Example Oneshot.}
+\label{tab:fi_spatial1_performance}
+\end{table}

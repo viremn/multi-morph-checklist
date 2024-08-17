@@ -1,0 +1,24 @@
+
+\begin{table}[h]
+\centering
+\begin{tabular}{p{1\textwidth}}
+\toprule
+\textbf{Task: Counters} \\ 
+\textbf{Language: Pooled} \\ 
+\midrule
+\end{tabular}
+\vspace{10pt}
+\begin{tabular}{p{0.23\textwidth}|p{0.16\textwidth}p{0.16\textwidth}p{0.16\textwidth}p{0.16\textwidth}}
+\toprule
+\textbf{Model} & $XGLM_{564M}^{1beam}$ & $XGLM_{564M}^{2beam}$ & $XGLM_{1.7B}^{1beam}$ & $mGPT_{1.3B}^{1beam}$ \\
+\textbf{Pattern} &  &  &  &  \\
+\midrule
+P1|NEG & 0.0/1.3/1.3 & 0.0/0.6/0.6 & 0.0/-/- & 0.0/8.8/8.8 \\
+P1|NEG|N1 & 0.0/1.3/1.3 & 0.0/0.6/0.6 & 0.0/-/- & 0.0/8.8/8.8 \\
+P1|P2|NEG & 0.0/0.0/0.0 & 0.0/0.0/0.0 & 0.0/-/- & 0.0/0.0/0.0 \\
+P1|P2|NEG|N1 & 0.0/0.0/0.0 & 0.0/0.0/0.0 & 0.0/-/- & 0.0/0.0/0.0 \\
+\bottomrule
+\end{tabular}
+\caption{Pooled accuracy for the counters task for different model and experimental setups. Values=Zeroshot/Oneshot/Alternate Example Oneshot.}
+\label{tab:pooled_counters_performance}
+\end{table}

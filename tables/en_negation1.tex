@@ -1,0 +1,24 @@
+
+\begin{table}[h]
+\centering
+\begin{tabular}{p{1\textwidth}}
+\toprule
+\textbf{Task: Negation1} \\ 
+\textbf{Language: English} \\ 
+\midrule
+\end{tabular}
+\vspace{10pt}
+\begin{tabular}{p{0.23\textwidth}|p{0.16\textwidth}p{0.16\textwidth}p{0.16\textwidth}p{0.16\textwidth}}
+\toprule
+\textbf{Model} & $XGLM_{564M}^{1beam}$ & $XGLM_{564M}^{2beam}$ & $XGLM_{1.7B}^{1beam}$ & $mGPT_{1.3B}^{1beam}$ \\
+\textbf{Pattern} &  &  &  &  \\
+\midrule
+P1 & 20.8/47.0/27.2 & 78.8/69.2/40.6 & 39.4/-/- & 66.6/57.4/24.6 \\
+P1|N1 & 13.0/47.0/27.2 & 8.8/69.2/40.6 & 37.8/-/- & 36.0/57.4/24.6 \\
+P1|P2|NEG & 12.0/0.0/0.0 & 43.8/0.0/0.0 & 3.4/-/- & 8.4/0.0/0.0 \\
+P1|P2|NEG|N1 & 11.2/0.0/0.0 & 7.0/0.0/0.0 & 3.4/-/- & 8.4/0.0/0.0 \\
+\bottomrule
+\end{tabular}
+\caption{Accuracy for the negation1 task in English for different model and experimental setups. Values=Zeroshot/Oneshot/Alternate Example Oneshot.}
+\label{tab:en_negation1_performance}
+\end{table}

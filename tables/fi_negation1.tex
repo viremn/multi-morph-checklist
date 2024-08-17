@@ -1,0 +1,24 @@
+
+\begin{table}[h]
+\centering
+\begin{tabular}{p{1\textwidth}}
+\toprule
+\textbf{Task: Negation1} \\ 
+\textbf{Language: Finnish} \\ 
+\midrule
+\end{tabular}
+\vspace{10pt}
+\begin{tabular}{p{0.23\textwidth}|p{0.16\textwidth}p{0.16\textwidth}p{0.16\textwidth}p{0.16\textwidth}}
+\toprule
+\textbf{Model} & $XGLM_{564M}^{1beam}$ & $XGLM_{564M}^{2beam}$ & $XGLM_{1.7B}^{1beam}$ & $mGPT_{1.3B}^{1beam}$ \\
+\textbf{Pattern} &  &  &  &  \\
+\midrule
+P1 & 67.6/58.0/11.0 & 86.0/67.4/23.0 & 61.0/-/- & 54.6/73.6/48.4 \\
+P1|N1 & 65.6/58.0/11.0 & 75.2/67.2/22.8 & 53.8/-/- & 45.4/73.6/48.4 \\
+P1|P2|NEG & 15.2/0.0/0.0 & 36.8/0.0/0.0 & 0.6/-/- & 1.0/0.0/0.0 \\
+P1|P2|NEG|N1 & 14.8/0.0/0.0 & 31.6/0.0/0.0 & 0.2/-/- & 1.0/0.0/0.0 \\
+\bottomrule
+\end{tabular}
+\caption{Accuracy for the negation1 task in Finnish for different model and experimental setups. Values=Zeroshot/Oneshot/Alternate Example Oneshot.}
+\label{tab:fi_negation1_performance}
+\end{table}

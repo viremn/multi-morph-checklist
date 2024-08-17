@@ -1,0 +1,51 @@
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{p{0.9\textwidth}}
+\toprule
+\textbf{Task: Spatial2} \\
+\midrule
+\end{tabular}
+\vspace{10pt}
+\begin{tabular}{llrrrrrrr}
+\toprule
+ &  & TP & FP & TN & FN & P & R & F1 \\
+pattern & lang &  &  &  &  &  &  &  \\
+\midrule
+\multirow[t]{3}{*}{P1|NEG} & en & 123 & 7 & 482 & 0 & 0.946 & 1.000 & 0.972 \\
+ & ja & 110 & 29 & 461 & 0 & 0.791 & 1.000 & 0.884 \\
+ & pooled & 233 & 36 & 943 & 0 & 0.866 & 1.000 & 0.928 \\
+\cline{1-9}
+\multirow[t]{3}{*}{P1|NEG|N1} & en & 123 & 7 & 482 & 0 & 0.946 & 1.000 & 0.972 \\
+ & ja & 110 & 28 & 462 & 0 & 0.797 & 1.000 & 0.887 \\
+ & pooled & 233 & 35 & 944 & 0 & 0.869 & 1.000 & 0.930 \\
+\cline{1-9}
+\multirow[t]{3}{*}{P1|NEG|N1|N2} & en & 123 & 7 & 482 & 0 & 0.946 & 1.000 & 0.972 \\
+ & ja & 110 & 18 & 472 & 0 & 0.859 & 1.000 & 0.924 \\
+ & pooled & 233 & 25 & 954 & 0 & 0.903 & 1.000 & 0.949 \\
+\cline{1-9}
+\multirow[t]{3}{*}{P1|NEG|N2} & en & 123 & 7 & 482 & 0 & 0.946 & 1.000 & 0.972 \\
+ & ja & 110 & 18 & 472 & 0 & 0.859 & 1.000 & 0.924 \\
+ & pooled & 233 & 25 & 954 & 0 & 0.903 & 1.000 & 0.949 \\
+\cline{1-9}
+\multirow[t]{3}{*}{P1|P2|NEG} & en & 71 & 0 & 489 & 52 & 1.000 & 0.577 & 0.732 \\
+ & ja & 8 & 1 & 489 & 102 & 0.889 & 0.073 & 0.134 \\
+ & pooled & 79 & 1 & 978 & 154 & 0.988 & 0.339 & 0.505 \\
+\cline{1-9}
+\multirow[t]{3}{*}{P1|P2|NEG|N1} & en & 71 & 0 & 489 & 52 & 1.000 & 0.577 & 0.732 \\
+ & ja & 8 & 1 & 489 & 102 & 0.889 & 0.073 & 0.134 \\
+ & pooled & 79 & 1 & 978 & 154 & 0.988 & 0.339 & 0.505 \\
+\cline{1-9}
+\multirow[t]{3}{*}{P1|P2|NEG|N1|N2} & en & 71 & 0 & 489 & 52 & 1.000 & 0.577 & 0.732 \\
+ & ja & 8 & 1 & 489 & 102 & 0.889 & 0.073 & 0.134 \\
+ & pooled & 79 & 1 & 978 & 154 & 0.988 & 0.339 & 0.505 \\
+\cline{1-9}
+\multirow[t]{3}{*}{P1|P2|NEG|N2} & en & 71 & 0 & 489 & 52 & 1.000 & 0.577 & 0.732 \\
+ & ja & 8 & 1 & 489 & 102 & 0.889 & 0.073 & 0.134 \\
+ & pooled & 79 & 1 & 978 & 154 & 0.988 & 0.339 & 0.505 \\
+\cline{1-9}
+\bottomrule
+\end{tabular}
+\caption{F-score measure for matching patterns in the spatial2 task. TP=True Positive, FP=False Positive, TN=True Negative, FN=False Negative, P=Precision, R=Recall.}
+\label{tab:spatial2_f1}
+\end{table}

@@ -1,0 +1,28 @@
+
+\begin{table}[h]
+\centering
+\begin{tabular}{p{1\textwidth}}
+\toprule
+\textbf{Task: Spatial1} \\ 
+\textbf{Language: Formal Japanese} \\ 
+\midrule
+\end{tabular}
+\vspace{10pt}
+\begin{tabular}{p{0.23\textwidth}|p{0.16\textwidth}p{0.16\textwidth}p{0.16\textwidth}p{0.16\textwidth}}
+\toprule
+\textbf{Model} & $XGLM_{564M}^{1beam}$ & $XGLM_{564M}^{2beam}$ & $XGLM_{1.7B}^{1beam}$ & $mGPT_{1.3B}^{1beam}$ \\
+\textbf{Pattern} &  &  &  &  \\
+\midrule
+P1|NEG & 51.4/23.0/31.0 & 83.6/23.0/36.8 & 77.0/-/- & 51.2/73.0/87.6 \\
+P1|NEG|N1 & 7.8/11.0/10.4 & 11.0/7.6/11.0 & 2.8/-/- & 14.8/63.6/70.4 \\
+P1|NEG|N1|N2 & 7.4/10.8/10.4 & 8.2/7.0/10.8 & 2.8/-/- & 6.2/62.8/70.4 \\
+P1|NEG|N2 & 34.4/11.8/15.6 & 51.4/9.8/17.0 & 53.2/-/- & 14.2/70.4/87.2 \\
+P1|P2|NEG & 47.4/18.4/26.4 & 73.8/17.4/31.4 & 69.2/-/- & 38.8/34.8/31.2 \\
+P1|P2|NEG|N1 & 5.2/6.4/6.8 & 6.2/2.6/7.4 & 0.8/-/- & 4.0/25.8/14.0 \\
+P1|P2|NEG|N1|N2 & 5.2/6.4/6.8 & 5.0/2.6/7.4 & 0.8/-/- & 3.6/25.8/14.0 \\
+P1|P2|NEG|N2 & 30.8/7.4/11.0 & 43.6/5.0/12.6 & 45.4/-/- & 11.4/33.0/30.8 \\
+\bottomrule
+\end{tabular}
+\caption{Accuracy for the spatial1 task in formal Japanese for different model and experimental setups. Values=Zeroshot/Oneshot/Alternate Example Oneshot.}
+\label{tab:ja form_spatial1_performance}
+\end{table}

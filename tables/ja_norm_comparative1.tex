@@ -1,0 +1,28 @@
+
+\begin{table}[h]
+\centering
+\begin{tabular}{p{1\textwidth}}
+\toprule
+\textbf{Task: Comparative1} \\ 
+\textbf{Language: Neutral Japanese} \\ 
+\midrule
+\end{tabular}
+\vspace{10pt}
+\begin{tabular}{p{0.23\textwidth}|p{0.16\textwidth}p{0.16\textwidth}p{0.16\textwidth}p{0.16\textwidth}}
+\toprule
+\textbf{Model} & $XGLM_{564M}^{1beam}$ & $XGLM_{564M}^{2beam}$ & $XGLM_{1.7B}^{1beam}$ & $mGPT_{1.3B}^{1beam}$ \\
+\textbf{Pattern} &  &  &  &  \\
+\midrule
+P1|NEG & 70.0/16.8/4.0 & 74.6/10.8/1.4 & 63.6/-/- & 80.6/60.6/31.0 \\
+P1|NEG|N1 & 27.6/15.8/2.6 & 13.8/8.4/1.0 & 22.0/-/- & 26.2/51.2/4.8 \\
+P1|NEG|N1|N2 & 8.0/15.4/1.2 & 3.0/8.4/1.0 & 6.4/-/- & 6.4/49.2/4.6 \\
+P1|NEG|N2 & 9.8/16.0/2.0 & 4.6/9.8/1.2 & 7.4/-/- & 9.4/50.2/7.6 \\
+P1|P2|NEG & 12.0/0.8/1.0 & 4.6/1.4/0.2 & 7.4/-/- & 9.2/1.0/3.0 \\
+P1|P2|NEG|N1 & 9.4/0.2/0.2 & 3.0/0.0/0.0 & 6.2/-/- & 6.6/0.0/0.0 \\
+P1|P2|NEG|N1|N2 & 7.4/0.2/0.2 & 2.8/0.0/0.0 & 6.2/-/- & 6.4/0.0/0.0 \\
+P1|P2|NEG|N2 & 9.2/0.8/1.0 & 4.4/1.4/0.2 & 7.2/-/- & 8.8/1.0/3.0 \\
+\bottomrule
+\end{tabular}
+\caption{Accuracy for the comparative1 task in neutral Japanese for different model and experimental setups. Values=Zeroshot/Oneshot/Alternate Example Oneshot.}
+\label{tab:ja norm_comparative1_performance}
+\end{table}

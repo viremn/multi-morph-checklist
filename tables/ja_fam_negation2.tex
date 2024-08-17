@@ -1,0 +1,26 @@
+
+\begin{table}[h]
+\centering
+\begin{tabular}{p{1\textwidth}}
+\toprule
+\textbf{Task: Negation2} \\ 
+\textbf{Language: Familiar Japanese} \\ 
+\midrule
+\end{tabular}
+\vspace{10pt}
+\begin{tabular}{p{0.23\textwidth}|p{0.16\textwidth}p{0.16\textwidth}p{0.16\textwidth}p{0.16\textwidth}}
+\toprule
+\textbf{Model} & $XGLM_{564M}^{1beam}$ & $XGLM_{564M}^{2beam}$ & $XGLM_{1.7B}^{1beam}$ & $mGPT_{1.3B}^{1beam}$ \\
+\textbf{Pattern} &  &  &  &  \\
+\midrule
+P1 & 32.8/16.8/9.8 & 62.6/10.0/7.0 & 48.6/-/- & 63.2/34.6/27.0 \\
+P1|N1 & 23.0/16.8/9.8 & 23.6/9.8/6.8 & 34.2/-/- & 48.4/34.6/26.8 \\
+P1|P2|NEG & 2.2/0.0/0.0 & 0.2/0.0/0.0 & 0.0/-/- & 3.6/0.0/0.0 \\
+P1|P2|NEG|N1 & 2.2/0.0/0.0 & 0.2/0.0/0.0 & 0.0/-/- & 3.4/0.0/0.0 \\
+P1|P3|nNEG & 19.6/0.0/0.0 & 41.0/0.2/0.2 & 14.0/-/- & 28.2/2.6/0.4 \\
+P1|P3|nNEG|N1 & 12.2/0.0/0.0 & 14.8/0.0/0.0 & 5.0/-/- & 21.4/2.6/0.4 \\
+\bottomrule
+\end{tabular}
+\caption{Accuracy for the negation2 task in familiar Japanese for different model and experimental setups. Values=Zeroshot/Oneshot/Alternate Example Oneshot.}
+\label{tab:ja fam_negation2_performance}
+\end{table}

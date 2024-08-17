@@ -1,0 +1,32 @@
+
+\begin{table}[h]
+\centering
+\begin{tabular}{p{1\textwidth}}
+\toprule
+\textbf{Task: Numerals1} \\ 
+\textbf{Language: Pooled} \\ 
+\midrule
+\end{tabular}
+\vspace{10pt}
+\begin{tabular}{p{0.23\textwidth}|p{0.16\textwidth}p{0.16\textwidth}p{0.16\textwidth}p{0.16\textwidth}}
+\toprule
+\textbf{Model} & $XGLM_{564M}^{1beam}$ & $XGLM_{564M}^{2beam}$ & $XGLM_{1.7B}^{1beam}$ & $mGPT_{1.3B}^{1beam}$ \\
+\textbf{Pattern} &  &  &  &  \\
+\midrule
+P1|NEG & 0.1/5.5/5.5 & 0.1/7.4/7.4 & 0.2/-/- & 0.8/8.2/8.2 \\
+P1|NEG|N1 & 0.0/5.3/5.3 & 0.0/7.2/7.2 & 0.2/-/- & 0.7/8.0/8.0 \\
+P1|NEG|N1|N2 & 0.0/5.3/5.3 & 0.0/7.2/7.2 & 0.2/-/- & 0.7/8.0/8.0 \\
+P1|NEG|N2 & 0.0/5.5/5.5 & 0.1/7.4/7.4 & 0.2/-/- & 0.7/8.2/8.2 \\
+P1|P2|NEG & 0.0/0.0/0.0 & 0.0/0.0/0.0 & 0.0/-/- & 0.0/0.0/0.0 \\
+P1|P2|NEG|N1 & 0.0/0.0/0.0 & 0.0/0.0/0.0 & 0.0/-/- & 0.0/0.0/0.0 \\
+P1|P2|NEG|N1|N2 & 0.0/0.0/0.0 & 0.0/0.0/0.0 & 0.0/-/- & 0.0/0.0/0.0 \\
+P1|P2|NEG|N2 & 0.0/0.0/0.0 & 0.0/0.0/0.0 & 0.0/-/- & 0.0/0.0/0.0 \\
+P1|P2|P3|NEG & 0.0/0.0/0.0 & 0.0/0.0/0.0 & 0.0/-/- & 0.0/0.0/0.0 \\
+P1|P2|P3|NEG|N1 & 0.0/0.0/0.0 & 0.0/0.0/0.0 & 0.0/-/- & 0.0/0.0/0.0 \\
+P1|P2|P3|NEG|N1|N2 & 0.0/0.0/0.0 & 0.0/0.0/0.0 & 0.0/-/- & 0.0/0.0/0.0 \\
+P1|P2|P3|NEG|N2 & 0.0/0.0/0.0 & 0.0/0.0/0.0 & 0.0/-/- & 0.0/0.0/0.0 \\
+\bottomrule
+\end{tabular}
+\caption{Pooled accuracy for the numerals1 task for different model and experimental setups. Values=Zeroshot/Oneshot/Alternate Example Oneshot.}
+\label{tab:pooled_numerals1_performance}
+\end{table}

@@ -1,0 +1,28 @@
+
+\begin{table}[h]
+\centering
+\begin{tabular}{p{1\textwidth}}
+\toprule
+\textbf{Task: Spatial2} \\ 
+\textbf{Language: English} \\ 
+\midrule
+\end{tabular}
+\vspace{10pt}
+\begin{tabular}{p{0.23\textwidth}|p{0.16\textwidth}p{0.16\textwidth}p{0.16\textwidth}p{0.16\textwidth}}
+\toprule
+\textbf{Model} & $XGLM_{564M}^{1beam}$ & $XGLM_{564M}^{2beam}$ & $XGLM_{1.7B}^{1beam}$ & $mGPT_{1.3B}^{1beam}$ \\
+\textbf{Pattern} &  &  &  &  \\
+\midrule
+P1|NEG & 37.4/14.0/10.8 & 44.2/8.8/13.6 & 34.6/-/- & 0.8/9.2/9.6 \\
+P1|NEG|N1 & 37.4/14.0/10.8 & 44.2/8.8/13.6 & 34.6/-/- & 0.8/9.2/9.6 \\
+P1|NEG|N1|N2 & 35.8/14.0/10.8 & 42.0/8.8/13.6 & 33.2/-/- & 0.8/9.2/9.6 \\
+P1|NEG|N2 & 35.8/14.0/10.8 & 42.0/8.8/13.6 & 33.2/-/- & 0.8/9.2/9.6 \\
+P1|P2|NEG & 32.8/0.0/0.0 & 38.6/0.0/0.0 & 14.0/-/- & 0.8/0.0/0.0 \\
+P1|P2|NEG|N1 & 32.8/0.0/0.0 & 38.6/0.0/0.0 & 14.0/-/- & 0.8/0.0/0.0 \\
+P1|P2|NEG|N1|N2 & 32.8/0.0/0.0 & 38.6/0.0/0.0 & 14.0/-/- & 0.8/0.0/0.0 \\
+P1|P2|NEG|N2 & 32.8/0.0/0.0 & 38.6/0.0/0.0 & 14.0/-/- & 0.8/0.0/0.0 \\
+\bottomrule
+\end{tabular}
+\caption{Accuracy for the spatial2 task in English for different model and experimental setups. Values=Zeroshot/Oneshot/Alternate Example Oneshot.}
+\label{tab:en_spatial2_performance}
+\end{table}

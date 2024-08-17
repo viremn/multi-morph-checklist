@@ -1,0 +1,28 @@
+
+\begin{table}[h]
+\centering
+\begin{tabular}{p{1\textwidth}}
+\toprule
+\textbf{Task: Temporal2} \\ 
+\textbf{Language: Finnish} \\ 
+\midrule
+\end{tabular}
+\vspace{10pt}
+\begin{tabular}{p{0.23\textwidth}|p{0.16\textwidth}p{0.16\textwidth}p{0.16\textwidth}p{0.16\textwidth}}
+\toprule
+\textbf{Model} & $XGLM_{564M}^{1beam}$ & $XGLM_{564M}^{2beam}$ & $XGLM_{1.7B}^{1beam}$ & $mGPT_{1.3B}^{1beam}$ \\
+\textbf{Pattern} &  &  &  &  \\
+\midrule
+P1 & 67.2/50.6/62.2 & 87.4/49.6/67.0 & 60.6/-/- & 69.0/32.8/79.2 \\
+P1|N1 & 14.2/50.6/0.0 & 3.2/45.8/0.0 & 60.6/-/- & 69.0/32.8/0.0 \\
+P1|N1|N2 & 14.2/50.6/0.0 & 3.2/45.8/0.0 & 60.6/-/- & 69.0/32.8/0.0 \\
+P1|N2 & 21.4/50.6/62.2 & 5.6/49.6/67.0 & 60.6/-/- & 69.0/32.8/79.2 \\
+P1|P2|NEG & 3.6/0.0/0.0 & 1.2/0.0/0.0 & 0.0/-/- & 0.0/0.0/0.0 \\
+P1|P2|NEG|N1 & 0.0/0.0/0.0 & 0.2/0.0/0.0 & 0.0/-/- & 0.0/0.0/0.0 \\
+P1|P2|NEG|N1|N2 & 0.0/0.0/0.0 & 0.2/0.0/0.0 & 0.0/-/- & 0.0/0.0/0.0 \\
+P1|P2|NEG|N2 & 3.2/0.0/0.0 & 1.2/0.0/0.0 & 0.0/-/- & 0.0/0.0/0.0 \\
+\bottomrule
+\end{tabular}
+\caption{Accuracy for the temporal2 task in Finnish for different model and experimental setups. Values=Zeroshot/Oneshot/Alternate Example Oneshot.}
+\label{tab:fi_temporal2_performance}
+\end{table}

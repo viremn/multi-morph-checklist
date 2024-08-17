@@ -1,0 +1,32 @@
+
+\begin{table}[h]
+\centering
+\begin{tabular}{p{1\textwidth}}
+\toprule
+\textbf{Task: Numerals2} \\ 
+\textbf{Language: English} \\ 
+\midrule
+\end{tabular}
+\vspace{10pt}
+\begin{tabular}{p{0.23\textwidth}|p{0.16\textwidth}p{0.16\textwidth}p{0.16\textwidth}p{0.16\textwidth}}
+\toprule
+\textbf{Model} & $XGLM_{564M}^{1beam}$ & $XGLM_{564M}^{2beam}$ & $XGLM_{1.7B}^{1beam}$ & $mGPT_{1.3B}^{1beam}$ \\
+\textbf{Pattern} &  &  &  &  \\
+\midrule
+P1|NEG & 9.6/21.2/21.2 & 18.0/17.2/17.2 & 20.0/-/- & 18.4/12.8/12.8 \\
+P1|NEG|N1 & 9.6/21.2/21.2 & 18.0/17.2/17.2 & 20.0/-/- & 18.4/12.8/12.8 \\
+P1|NEG|N1|N2 & 8.6/21.2/21.2 & 12.6/17.2/17.2 & 17.0/-/- & 17.2/12.8/12.8 \\
+P1|NEG|N2 & 8.6/21.2/21.2 & 12.6/17.2/17.2 & 17.0/-/- & 17.2/12.8/12.8 \\
+P1|P2|NEG & 1.0/0.0/0.0 & 6.0/0.0/0.0 & 3.6/-/- & 2.0/0.0/0.0 \\
+P1|P2|NEG|N1 & 1.0/0.0/0.0 & 6.0/0.0/0.0 & 3.6/-/- & 2.0/0.0/0.0 \\
+P1|P2|NEG|N1|N2 & 0.2/0.0/0.0 & 0.8/0.0/0.0 & 0.6/-/- & 0.8/0.0/0.0 \\
+P1|P2|NEG|N2 & 0.2/0.0/0.0 & 0.8/0.0/0.0 & 0.6/-/- & 0.8/0.0/0.0 \\
+P1|P2|P3|NEG & 0.8/0.0/0.0 & 5.2/0.0/0.0 & 0.0/-/- & 0.0/0.0/0.0 \\
+P1|P2|P3|NEG|N1 & 0.8/0.0/0.0 & 5.2/0.0/0.0 & 0.0/-/- & 0.0/0.0/0.0 \\
+P1|P2|P3|NEG|N1|N2 & 0.0/0.0/0.0 & 0.2/0.0/0.0 & 0.0/-/- & 0.0/0.0/0.0 \\
+P1|P2|P3|NEG|N2 & 0.0/0.0/0.0 & 0.2/0.0/0.0 & 0.0/-/- & 0.0/0.0/0.0 \\
+\bottomrule
+\end{tabular}
+\caption{Accuracy for the numerals2 task in English for different model and experimental setups. Values=Zeroshot/Oneshot/Alternate Example Oneshot.}
+\label{tab:en_numerals2_performance}
+\end{table}
